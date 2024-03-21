@@ -3,3 +3,7 @@ gitignore
 CV_TAGUINE_TAREK.pdf
 *.pdf
 README.txt
+*.txt
+*.DS_Store
+*.vscode
+
