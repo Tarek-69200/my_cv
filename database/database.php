@@ -2,8 +2,8 @@
 
 $host = getenv('DB_HOST');
 $user = getenv('DB_USER');
-$password = getenv('DB_PASSWORD');
 $database = getenv('DB_DATABASE');
+$password = getenv('DB_PASSWORD');
 
 try {
     $conn = new PDO("mysql:host=$host;dbname=$database", $user, $password);
