@@ -6,4 +6,4 @@ README.txt
 *.txt
 *.DS_Store
 *.vscode
-
+.env
