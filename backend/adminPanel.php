@@ -15,11 +15,9 @@
 
     <?php
 
-    echo 'Welcome to the admin panel!';
-
-    // Récupération des messages de la base de données
-
     require_once '../database/database.php';
+    echo '<h1>Admin Panel</h1>';
+
 
     $sql = "SELECT * FROM messages";
 
