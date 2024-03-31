@@ -78,13 +78,7 @@
         }
         ?>
 
-        <form action="deleteMessage.php" method="post">
-            <div class="mb-3">
-                <label for="messageId" class="form-label">Message ID</label>
-                <input type="text" class="form-control" id="messageId" name="id" placeholder="Enter Message ID">
-            </div>
-            <button type="submit" class="btn btn-primary">Delete</button>
-        </form>
+      
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
