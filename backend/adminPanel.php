@@ -12,7 +12,7 @@
 
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Paneau de navigation</a>
+    <a class="navbar-brand" href="adminPanel.php">Paneau de navigation</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -45,7 +45,7 @@
         echo '<table class="table">';
         echo '<thead>';
         echo '<tr>';
-        // echo '<th scope="col">#</th>';
+        echo '<th scope="col">id</th>';
         echo '<th scope="col">Name</th>';
         echo '<th scope="col">Message</th>';
         echo '<th scope="col">Email</th>';
@@ -56,7 +56,7 @@
 
         while ($row = $result->fetch(PDO::FETCH_ASSOC)) {
             echo '<tr>';
-            // echo '<th scope="row">' . $row['id'] . '</th>';
+            echo '<th scope="row">' . $row['id'] . '</th>';
             echo '<td>' . $row['name'] . '</td>';
             echo '<td>' . $row['message'] . '</td>';
             echo '<td>' . $row['email'] . '</td>';

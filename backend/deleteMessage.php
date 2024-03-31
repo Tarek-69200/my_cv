@@ -15,6 +15,7 @@
         echo '<table class="table">';
         echo '<thead>';
         echo '<tr>';
+        echo '<th scope="col">id</th>';
         echo '<th scope="col">Name</th>';
         echo '<th scope="col">Message</th>';
         echo '<th scope="col">Email</th>';
@@ -24,6 +25,7 @@
         echo '<tbody>';
         while ($row = $result->fetch(PDO::FETCH_ASSOC)) {
             echo '<tr>';
+            echo '<td>' . $row['id'] . '</td>';
             echo '<td>' . $row['name'] . '</td>';
             echo '<td>' . $row['message'] . '</td>';
             echo '<td>' . $row['email'] . '</td>';
@@ -38,6 +40,6 @@
         <input type="text" name="id" placeholder="Message ID">
         <button type="submit">Delete</button>
     </form>
-    
+
 </body>
 </html>
