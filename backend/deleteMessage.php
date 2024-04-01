@@ -20,9 +20,8 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link" href="adminPanel.php">Admin Panel</a>
-                        <a class="nav-link" href="loginPanel.php">Login Panel</a>
-                        <a class="nav-link" href="logout.php">Logout</a>
+                        <a class="nav-link" href="adminPanel.php">Gestion Admin</a>
+                        <a class="nav-link" href="logout.php">Deconnexion</a>
                     </div>
                 </div>
             </div>
@@ -78,13 +77,7 @@
         }
         ?>
 
-        <form action="deleteMessage.php" method="post">
-            <div class="mb-3">
-                <label for="messageId" class="form-label">Message ID</label>
-                <input type="text" class="form-control" id="messageId" name="id" placeholder="Enter Message ID">
-            </div>
-            <button type="submit" class="btn btn-primary">Delete</button>
-        </form>
+      
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
