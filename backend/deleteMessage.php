@@ -20,9 +20,8 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link" href="adminPanel.php">Admin Panel</a>
-                        <a class="nav-link" href="loginPanel.php">Login Panel</a>
-                        <a class="nav-link" href="logout.php">Logout</a>
+                        <a class="nav-link" href="adminPanel.php">Gestion Admin</a>
+                        <a class="nav-link" href="logout.php">Deconnexion</a>
                     </div>
                 </div>
             </div>

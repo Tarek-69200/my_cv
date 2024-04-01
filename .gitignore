@@ -3,8 +3,14 @@ gitignore
 CV_TAGUINE_TAREK.pdf
 *.pdf
 README.txt
+*.txt
 
 *.DS_Store
 *.vscode
 .env
 *.env
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
+
