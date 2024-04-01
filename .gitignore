@@ -1,10 +1,13 @@
 documents.txt
+log.txt
 gitignore
-CV_TAGUINE_TAREK.pdf
 *.pdf
 README.txt
 *.txt
 
+*.log
+*.log.*
+*.documents
 *.DS_Store
 *.vscode
 .env
