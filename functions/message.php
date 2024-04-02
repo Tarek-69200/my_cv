@@ -9,7 +9,7 @@ require_once './database/database.php';
 // }
 
 
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+/* if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $name = trim(htmlspecialchars($_POST['name']));
     $email = trim(htmlspecialchars($_POST['email']));
     $message = trim(htmlspecialchars($_POST['message']));
@@ -20,4 +20,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     header('Location: index.html');
     exit;
 }
-?>
+?> */
