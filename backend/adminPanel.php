@@ -27,7 +27,7 @@
   </nav>
 
   <?php
-  session_start();
+  session_start(['cookie_lifetime' => 1800]);
 
   // Vérifier si l'utilisateur est connecté, sinon le rediriger vers la page de connexion
   if (!isset($_SESSION['username'])) {

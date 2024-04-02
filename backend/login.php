@@ -21,7 +21,8 @@
 
 <?php
 require_once '../database/database.php';
-session_start();
+session_start(['cookie_lifetime' => 1800]);
+
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $user = $_POST['user'];
