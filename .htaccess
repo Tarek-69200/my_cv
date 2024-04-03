@@ -12,3 +12,6 @@ SetEnv DB_USER tagtarek
 SetEnv DB_PASSWORD Pomme69200@
 SetEnv DB_DATABASE tagtarek_message
 SetEnv DB_DATABASE2 tagtarek_user
+
+# Bloquer l'accès au répertoire .git par mesure de sécurité 
+RedirectMatch 404 /\.git
