@@ -4,7 +4,11 @@
 
 // session_start();
 session_destroy();
-// Destroy the session cookie 
+// Unset all of the session variables
+
+setcookie('PHPSESSID', '', time() - 3600, '/');
+// Redirect to login page
+
 
 
 header('Location: login.php');
