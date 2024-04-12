@@ -14,7 +14,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $stmt = $conn->prepare($sql);
         $stmt->execute(['name' => $name, 'email' => $email, 'message' => $message]);
         // Redirect to index.php 
-        header('Location: index.html');
+        header('Location: index');
         exit;
     }
 }
