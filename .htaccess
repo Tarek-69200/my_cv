@@ -7,12 +7,40 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.html -f
 RewriteRule ^([^\.]+)$ $1.html [NC,L]
 
-
 SetEnv DB_HOST mysql-tagtarek.alwaysdata.net
 SetEnv DB_USER tagtarek
 SetEnv DB_PASSWORD Pomme69200@
 SetEnv DB_DATABASE tagtarek_message
 
+# Bloquer l'accès au répertoire .git par mesure de sécurité
 
-# Bloquer l'accès au répertoire .git par mesure de sécurité 
 RedirectMatch 404 /\.git
+
+# Bloquer l'accès au fichier .htaccess par mesure de sécurité
+
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>
+
+# Bloquer l'accès au fichier .htpasswd par mesure de sécurité
+
+<Files .htpasswd>
+order allow,deny
+deny from all
+</Files>
+
+# Bloquer l'accès au fichier .DS_Store par mesure de sécurité
+
+<Files .DS_Store>
+order allow,deny
+deny from all
+</Files>
+
+# Bloquer l'accès au fichier .htaccess par mesure de sécurité
+
+<Files ~ "^.\*\.([Hh][Tt][Aa])">
+order allow,deny
+deny from all
+satisfy all
+</Files>
