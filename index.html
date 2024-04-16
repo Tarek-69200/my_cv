@@ -15,7 +15,15 @@
     PHP Symfony, Rhône, Lyon, 69 France">
   <meta name="google-site-verification" content="puEyUWPXIZDB1jr8YMNu99xhJFw10rOUpPADVcjn2s4">
 
-  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link ref="stylesheet" href="./assets/css/main.css">
+  <style>
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+</style>
   <noscript>
     <link rel="stylesheet" href="assets/css/noscript.css">
   </noscript>
@@ -25,19 +33,34 @@
 <!-- Body -->
 
 <body class="is-preload">
-  <!-- Sidebar -->
-  <div id="sidebar">
-    <div class="inner">
-      <nav>
-        <ul>
-          <li><a href="#intro">Présentation</a></li>
-          <li><a href="./cv.html">Mes compétences</a></li>
-          <li><a href="#one">Mes projets</a></li>
-          <li><a href="#twoo">Me contacter</a></li>
-        </ul>
-      </nav>
+  
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+  <img class="w3-image" src="/w3images/hamburger.jpg" alt="Hamburger Catering" width="1600" height="800">
+  <div class="w3-display-bottomleft w3-padding-large w3-opacity">
+    <h1 class="w3-xxlarge">Le Catering</h1>
+  </div>
+</header>
+
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:1100px">
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+    <a href="#home" class="w3-bar-item w3-button">Gourmet au Catering</a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">About</a>
+      <a href="#menu" class="w3-bar-item w3-button">Menu</a>
+      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
     </div>
   </div>
+</div>
+
+
 
   <!-- Wrapper -->
   <div id="wrapper">
@@ -63,158 +86,92 @@
     </div>
 
     <!-- One -->
-    <section id="one" class="wrapper style2 spotlights">
-      <section>
-        <div class="content">
-          <div class="inner">
-            <h2>Développement d'un ERP</h2>
-            <p>
-              Le projet consiste à développer un Progiciel de gestion
-              intégrée. Un ERP (Enterprise Resource Planning) est un système
-              logiciel intégré qui optimise la gestion des processus métier
-              d'une entreprise. Cela inclut des modules tels que la gestion
-              des ressources humaines, la finance, les stocks, etc. Les
-              avantages comprennent l'automatisation, l'accès en temps réel,
-              la normalisation des processus, la sécurité des données et des
-              outils de reporting et d'analyse. L'objectif est d'améliorer
-              l'efficacité opérationnelle et la prise de décision.
-            </p>
-            <ul class="actions"></ul>
-          </div>
-        </div>
-      </section>
-
-      <section>
-        <div class="content">
-          <div class="inner">
-            <h2>FAST SERVICES - Application de services restauration</h2>
-            <p>
-              Le projet consiste à apporter un gain de temps dans la prise de
-              commande où c'est le client qui scan la table via un QR Code et
-              réalise sois-même la commande. Conception des diagrammes
-              UML/MERISE afin de développer la base de données (SQL) .
-              Réalisation d'un jeu de données afin de tester la base de
-              donnés. Développement d'une API REST en NodeJS avec l'ORM
-              Sequelize. Développement d'une application front-end avec la
-              technologie VueJS et consommation du web service.
-            </p>
-            <ul class="actions"></ul>
-            <h2>Développement du projet Handy Mirror (IoT)</h2>
-            <p>
-              Projet collaboratif réalisé pour le développement d'un miroir
-              conncté dans le cadre d'assister les personnes atteinte de TDAH.
-              Développement de l'application mobile avec la technologie React
-              Native pour les version Android - iOS . Développement de l'API
-              REST avec la technologie NodeJS afin de faire communiquer
-              l'application avec le miroir connecté. Développement de la
-              fonctionnalitée de reconnaissance faciale avec la librairie
-              OpenCV en Python et application du RGPD. Mise en place d'un
-              système de gestion de module.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <section>
-        <div class="content">
-          <div class="inner">
-            <h2>
-              Application Web Vélo'v Lyon : Localisation en Temps Réel des
-              Vélos
-            </h2>
-            <p>
-              Une application Web intègre des données de localisation précises
-              provenant de deux services web essentiels. Elle permet de
-              visualiser instantanément les stations Vélo'V disponibles, le
-              nombre de vélos libres et les emplacements de stationnement
-              vacants. Idéale pour la planification de trajets écologiques,
-              notre application facilite l'accès aux vélos partagés et
-              améliore l'efficacité des déplacements dans Lyon. Les
-              fonctionnalités clés incluent la recherche de station Vélo'V, la
-              gestion de l'itinéraire en vélo, et des mises à jour en temps
-              réel, rendant le cycling à Lyon plus accessible et agréable.
-              Découvrez comment naviguer facilement dans la ville tout en
-              contribuant à la réduction de l'empreinte carbone grâce à une
-              alternative de transport durable.
-            </p>
-          </div>
-        </div>
-      </section>
-    </section>
-
-    <!-- Three -->
-    <section id="twoo" class="wrapper style1 fade-up">
-      <div class="inner">
-        <h2>Contactez-moi</h2>
-        <p>
-          Vous avez un projet ou une question ? N'hésitez pas à me contacter
-          en remplissant le formulaire ci-dessous. Je vous répondrai dans les
-          plus brefs délais. Merci !
-        </p>
-        <div class="split style1">
-          <div>
-            <form method="post" action="message.php">
-              <div class="fields">
-                <div class="field half">
-                  <label for="name">Name</label>
-                  <input type="text" name="name" id="name" required>
-                </div>
-                <div class="field half">
-                  <label for="email">Email</label>
-                  <input type="text" name="email" id="email" required>
-                </div>
-                <div class="field">
-                  <label for="message">Message</label>
-                  <textarea name="message" id="message" rows="5" required></textarea>
-                </div>
-              </div>
-              <ul class="actions">
-                <li>
-                  <a href="" class="button submit">Envoie du message</a>
-                </li>
-              </ul>
-            </form>
-          </div>
-          <section>
-            <ul class="contact">
-              <li>
-                <h3>Localisation</h3>
-                <span>Lyon Auvergne-Rhône-Alpes<br>
-
-                  France</span>
-              </li>
-              <li>
-                <h3>Email</h3>
-                <a href="mailto:tarek.taguine69@icloud.com"> Me contacter</a>
-              </li>
-
-              <li>
-                <h3>Réseau de contact</h3>
-                <ul class="icons">
-                  <li>
-                    <!-- Lien vers GitHub -->
-                    <a href="https://github.com/Tarek-69200" class="icon brands fa-github"
-                      aria-label="Profil GitHub de Tarek">
-                      <span class="visually-hidden">Profil GitHub de Tarek</span>
-                    </a>
-
-                    <!-- Lien vers LinkedIn -->
-                    <a href="https://www.linkedin.com/in/tarek-nordine-taguine/" class="icon brands fa-linkedin-in"
-                      aria-label="Profil LinkedIn de Tarek">
-                      <span class="visually-hidden">Profil LinkedIn de Tarek</span>
-                    </a>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </section>
-        </div>
+   <!-- Section One -->
+<section id="one" class="w3-row w3-padding-64">
+  <div class="w3-container">
+    <div class="w3-row">
+      <div class="w3-col l6">
+        <h2>Développement d'un ERP</h2>
+        <p>Le projet consiste à développer un Progiciel de gestion intégrée. Un ERP (Enterprise Resource Planning) est un système logiciel intégré qui optimise la gestion des processus métier d'une entreprise. Cela inclut des modules tels que la gestion des ressources humaines, la finance, les stocks, etc. Les avantages comprennent l'automatisation, l'accès en temps réel, la normalisation des processus, la sécurité des données et des outils de reporting et d'analyse. L'objectif est d'améliorer l'efficacité opérationnelle et la prise de décision.</p>
       </div>
-    </section>
+      <div class="w3-col l6">
+        <h2>FAST SERVICES - Application de services restauration</h2>
+        <p>Le projet consiste à apporter un gain de temps dans la prise de commande où c'est le client qui scan la table via un QR Code et réalise sois-même la commande. Conception des diagrammes UML/MERISE afin de développer la base de données (SQL). Réalisation d'un jeu de données afin de tester la base de donnés. Développement d'une API REST en NodeJS avec l'ORM Sequelize. Développement d'une application front-end avec la technologie VueJS et consommation du web service.</p>
+        <h2>Développement du projet Handy Mirror (IoT)</h2>
+        <p>Projet collaboratif réalisé pour le développement d'un miroir connecté dans le cadre d'assister les personnes atteintes de TDAH. Développement de l'application mobile avec la technologie React Native pour les versions Android - iOS. Développement de l'API REST avec la technologie NodeJS afin de faire communiquer l'application avec le miroir connecté. Développement de la fonctionnalité de reconnaissance faciale avec la librairie OpenCV en Python et application du RGPD. Mise en place d'un système de gestion de module.</p>
+      </div>
+    </div>
+    <div class="w3-row">
+      <div class="w3-col l6">
+        <h2>Application Web Vélo'v Lyon : Localisation en Temps Réel des Vélos</h2>
+        <p>Une application Web intègre des données de localisation précises provenant de deux services web essentiels. Elle permet de visualiser instantanément les stations Vélo'V disponibles, le nombre de vélos libres et les emplacements de stationnement vacants. Idéale pour la planification de trajets écologiques, notre application facilite l'accès aux vélos partagés et améliore l'efficacité des déplacements dans Lyon. Les fonctionnalités clés incluent la recherche de station Vélo'V, la gestion de l'itinéraire en vélo, et des mises à jour en temps réel, rendant le cycling à Lyon plus accessible et agréable. Découvrez comment naviguer facilement dans la ville tout en contribuant à la réduction de l'empreinte carbone grâce à une alternative de transport durable.</p>
+      </div>
+    </div>
   </div>
+</section>
+
+<!-- Section Two -->
+<section id="twoo" class="w3-row w3-padding-64">
+  <div class="w3-row">
+    <div class="w3-col l6">
+      <h2>Contactez-moi</h2>
+      <p>Vous avez un projet ou une question ? N'hésitez pas à me contacter en remplissant le formulaire ci-dessous. Je vous répondrai dans les plus brefs délais. Merci !</p>
+      <form method="post" action="message.php" class="w3-container">
+        <div class="w3-row-padding">
+          <div class="w3-half">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" class="w3-input" required>
+          </div>
+          <div class="w3-half">
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" class="w3-input" required>
+          </div>
+        </div>
+        <div class="w3-container">
+          <label for="message">Message</label>
+          <textarea name="message" id="message" class="w3-input" rows="5" required></textarea>
+        </div>
+        <div class="w3-row-padding">
+          <div class="w3-col">
+            <button type="submit" class="w3-button w3-light-grey w3-section">Envoie du message</button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="w3-col l6">
+      <ul class="contact">
+        <li>
+          <h3>Localisation</h3>
+          <span>Lyon Auvergne-Rhône-Alpes<br>France</span>
+        </li>
+        <li>
+          <h3>Email</h3>
+          <a href="mailto:tarek.taguine69@icloud.com">Me contacter</a>
+        </li>
+        <li>
+          <h3>Réseau de contact</h3>
+          <ul class="icons">
+            <li>
+              <!-- Lien vers GitHub -->
+              <a href="https://github.com/Tarek-69200" class="icon brands fa-github" aria-label="Profil GitHub de Tarek">
+                <span class="visually-hidden">Profil GitHub de Tarek</span>
+              </a>
+              <!-- Lien vers LinkedIn -->
+              <a href="https://www.linkedin.com/in/tarek-nordine-taguine/" class="icon brands fa-linkedin-in" aria-label="Profil LinkedIn de Tarek">
+                <span class="visually-hidden">Profil LinkedIn de Tarek</span>
+              </a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
 
   <!-- Footer -->
-  <footer id="footer" class="wrapper style1-alt">
+  <footer class="w3-center w3-light-grey w3-padding-32">
+
     <div class="inner">
       <ul class="menu">
         <li>&copy; TAGUINE Tarek.</li>
