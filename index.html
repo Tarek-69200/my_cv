@@ -12,7 +12,7 @@
   <meta name="author" content="Taguine Tarek">
   <meta name="keywords" content="Taguine Tarek, Développeur Back-End, Node.js, PHP Symfony, Rhône, Lyon, 69 France">
   <meta name="google-site-verification" content="puEyUWPXIZDB1jr8YMNu99xhJFw10rOUpPADVcjn2s4">
-  <!-- Inclure le framework W3.CSS -->
+
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
  
 
@@ -24,7 +24,7 @@
 
     <div class="w3-display-bottomleft w3-padding-large w3-opacity">
       <h1 class="w3-xxlarge">Taguine Tarek</h1>
-      <img class="w3-image" loading="lazy" src="./assets/images/tarek_taguine.png" alt="Taguine Tarek">
+      <img class="w3-image" loading="lazy" src="./assets/images/tarek_taguine.webp" alt="Taguine Tarek">
     </div>
   </header>
 
@@ -32,6 +32,7 @@
     <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
       <a href="#home" class="w3-bar-item w3-button">Taguine Tarek</a>
       <div class="w3-right w3-hide-medium w3-hide-large">
+        <a href="javascript:void(0);" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()" title="Toggle Navigation Menu" rel="nofollow"><i class="fa fa-bars"></i></a>
       </div>
       <div id="menuLinks" class="w3-hide-small">
         <a href="#one" class="w3-bar-item w3-button">Mes projets</a>
@@ -40,6 +41,14 @@
       </div>
     </div>
   </div>
+
+  <!-- Sidebar on small screens when clicking the menu icon -->
+  <nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+    <a href="#one" onclick="myFunction()" class="w3-bar-item w3-button">Mes projets</a>
+    <a href="/cv.html" onclick="myFunction()" class="w3-bar-item w3-button">DevSecOps</a>
+    <a href="#three" onclick="myFunction()" class="w3-bar-item w3-button">Contact</a>
+  </nav>
+
 
   <div id="intro" class="w3-container w3-padding-64 w3-center w3-animate-opacity">
     <div class="w3-container">
@@ -57,8 +66,7 @@
       <a href="#one" class="w3-button w3-black w3-round-xlarge">Mes projets</a>
     </div>
   </div>
-
-
+  
   <div id="one" class="w3-row-padding w3-padding-64">
     <div class="w3-half">
       <div class="w3-container">
@@ -104,34 +112,33 @@
 
   <div id="three" class="w3-row-padding w3-padding-32">
     <div class="w3-half w3-margin-auto"></div>
-      <div class="w3-container">
-        <h2 class="w3-center">Contactez-moi</h2>
-        <p>Vous avez un projet ou une question ? N'hésitez pas à me contacter en remplissant le formulaire ci-dessous.
-          Je vous répondrai dans les plus brefs délais. Merci !</p>
-        <form method="post" action="message.php" class="w3-container">
-          <div class="w3-row-padding">
-            <div class="w3-half">
-              <label for="name">Nom</label>
-              <input type="text" name="name" id="name" class="w3-input" required>
-            </div>
-            <div class="w3-half">
-              <label for="email">Email</label>
-              <input type="text" name="email" id="email" class="w3-input" required>
-            </div>
+    <div class="w3-container">
+      <h2 class="w3-center">Contactez-moi</h2>
+      <p>Vous avez un projet ou une question ? N'hésitez pas à me contacter en remplissant le formulaire ci-dessous.
+        Je vous répondrai dans les plus brefs délais. Merci !</p>
+      <form method="post" action="message.php" class="w3-container">
+        <div class="w3-row-padding">
+          <div class="w3-half">
+            <label for="name">Nom</label>
+            <input type="text" name="name" id="name" class="w3-input" required>
           </div>
-          <div class="w3-container w3-center">
-            <label for="message">Message</label>
-            <textarea name="message" id="message" class="w3-input" rows="5" required></textarea>
+          <div class="w3-half">
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" class="w3-input" required>
           </div>
-          <div class="w3-row-padding">
-            <div class="w3-col w3-center">
-              <button type="submit" class="w3-button w3-light-grey w3-section">Envoie du message</button>
-            </div>
-          </div>
-        </form>
-      </div>
+        </div>
+        <div class="w3-container w3-center">
+          <label for="message">Message</label>
+          <textarea name="message" id="message" class="w3-input" rows="5" required></textarea>
+        </div>
+        <div class="w3-row-padding">
+          <div class="w3-col w3-center">
+            <button type="submit" class="w3-button w3-black w3-section">Envoie du message</button>
+        </div>
+      </form>
     </div>
- 
+  </div>
+
 
   <footer class="w3-center w3-light-grey w3-padding-32">
     <div class="w3-container">
@@ -140,6 +147,11 @@
       </ul>
     </div>
   </footer>
+
+    <script  defer src="./assets/js/script.js"></script>
+  <script   src="./assets/js/gz.js"></script>
+
+
 
 </body>
 
