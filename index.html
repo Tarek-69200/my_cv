@@ -13,7 +13,9 @@
   <meta name="keywords" content="Taguine Tarek, Développeur Back-End, Node.js, PHP Symfony, Rhône, Lyon, 69 France">
   <meta name="google-site-verification" content="puEyUWPXIZDB1jr8YMNu99xhJFw10rOUpPADVcjn2s4">
 
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+  <link rel="stylesheet" href="./assets/css/main.css">
+
 
 
 </head>
@@ -24,20 +26,25 @@
 
     <div class="w3-display-bottomleft w3-padding-large w3-opacity">
       <h1 class="w3-xxlarge">Taguine Tarek</h1>
-      <img class="w3-image" loading="lazy" src="./assets/images/tarek_taguine.webp" alt="Taguine Tarek">
+      <img class="w3-image" loading="lazy" src="./assets/images/tarek_taguine.webp" alt="Taguine Tarek Nordine">
     </div>
   </header>
 
   <div class="w3-top">
     <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
       <a href="#home" class="w3-bar-item w3-button">Taguine Tarek</a>
-      <div class="w3-right w3-hide-medium w3-hide-large">
+      <div class="w3-right w3-hide-large w3-hide-medium">
         <a href="#" class="w3-bar-item w3-button w3-padding-large" title="Toggle Navigation Menu"
-          onclick="myFunction(); return false;"><i class="fa fa-bars"></i></a>
+          onclick="myFunction(); return false;">
+          <i class="fa fa-bars"></i>
+          <span class="w3-hide-large w3-hide-medium">Menu</span>
+
+        </a>
       </div>
+
       <div id="menuLinks" class="w3-hide-small">
         <a href="#one" class="w3-bar-item w3-button">Mes projets</a>
-        <a href="./cv.html" class="w3-bar-item w3-button">DevSecOps</a>
+        <a href="./devsecops.html" class="w3-bar-item w3-button">DevSecOps</a>
         <a href="#three" class="w3-bar-item w3-button">Contact</a>
       </div>
     </div>
@@ -47,7 +54,7 @@
   <nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-hide-medium w3-hide-large"
     style="display:none" id="mySidebar">
     <a href="#one" onclick="myFunction()" class="w3-bar-item w3-button">Mes projets</a>
-    <a href="./cv.html" onclick="myFunction()" class="w3-bar-item w3-button">DevSecOps</a>
+    <a href="./devsecops.html" onclick="myFunction()" class="w3-bar-item w3-button">DevSecOps</a>
     <a href="#three" onclick="myFunction()" class="w3-bar-item w3-button">Contact</a>
   </nav>
 
@@ -118,27 +125,27 @@
       <h2 class="w3-center">Contactez-moi</h2>
       <p>Vous avez un projet ou une question ? N'hésitez pas à me contacter en remplissant le formulaire ci-dessous.
         Je vous répondrai dans les plus brefs délais. Merci !</p>
-        <form method="post" action="message.php" class="w3-container">
-          <div class="w3-row-padding">
-            <div class="w3-half">
-              <label for="name">Nom</label>
-              <input type="text" name="name" id="name" class="w3-input" required>
-            </div>
-            <div class="w3-half">
-              <label for="email">Email</label>
-              <input type="text" name="email" id="email" class="w3-input" required>
-            </div>
+      <form method="post" action="message.php" class="w3-container">
+        <div class="w3-row-padding">
+          <div class="w3-half">
+            <label for="name">Nom</label>
+            <input type="text" name="name" id="name" class="w3-input" required>
           </div>
-          <div class="w3-container w3-center">
-            <label for="message">Message</label>
-            <textarea name="message" id="message" class="w3-input" rows="5" required></textarea>
+          <div class="w3-half">
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" class="w3-input" required>
           </div>
-          <div class="w3-row-padding">
-            <div class="w3-col w3-center">
-              <button type="submit" class="w3-button w3-black w3-section">Envoie du message</button>
-            </div>
+        </div>
+        <div class="w3-container w3-center">
+          <label for="message">Message</label>
+          <textarea name="message" id="message" class="w3-input" rows="5" required></textarea>
+        </div>
+        <div class="w3-row-padding">
+          <div class="w3-col w3-center">
+            <button type="submit" class="w3-button w3-black w3-section">Envoie du message</button>
           </div>
-        </form>
+        </div>
+      </form>
     </div>
   </div>
 
