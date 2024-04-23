@@ -9,8 +9,8 @@
   <link rel="icon" type="image/x-icon" href="favicon.png">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Développeur - Cyber Sécurité - Lyon ">
-  <meta name="keywords" content=" Taguine Tarek, Développeur, DevOps, Cyber Sécurité, Rhône, Lyon, France">
+  <meta name="description" content="DevSecOps - Cyber Sécurité - Lyon ">
+  <meta name="keywords" content=" Taguine Tarek, DevSecOps, DevOps, Cyber Sécurité, Rhône, Lyon, France">
   <meta name="author" content="Taguine Tarek">
   <meta name="google-site-verification" content="puEyUWPXIZDB1jr8YMNu99xhJFw10rOUpPADVcjn2s4">
   
