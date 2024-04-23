@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="fr">
 <!-- Head -->
@@ -45,7 +47,7 @@
 
       <div id="menuLinks" class="w3-hide-small">
         <a href="#one" class="w3-bar-item w3-button">Mes projets</a>
-        <a href="./devsecops.html" class="w3-bar-item w3-button">DevSecOps</a>
+        <a href="./cyber.php" class="w3-bar-item w3-button">DevSecOps</a>
         <a href="#three" class="w3-bar-item w3-button">Contact</a>
       </div>
     </div>
@@ -55,7 +57,7 @@
   <nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-hide-medium w3-hide-large"
     style="display:none" id="mySidebar">
     <a href="#one" onclick="myFunction()" class="w3-bar-item w3-button">Mes projets</a>
-    <a href="./devsecops.html" onclick="myFunction()" class="w3-bar-item w3-button">DevSecOps</a>
+    <a href="./cyber.php" onclick="myFunction()" class="w3-bar-item w3-button">DevSecOps</a>
     <a href="#three" onclick="myFunction()" class="w3-bar-item w3-button">Contact</a>
   </nav>
 
