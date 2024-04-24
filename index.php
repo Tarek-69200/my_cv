@@ -47,6 +47,7 @@
 
       <div id="menuLinks" class="w3-hide-small">
         <a href="#one" class="w3-bar-item w3-button">Mes projets</a>
+        <a href="./cv.html" class="w3-bar-item w3-button">CV</a>
         <a href="./cyber.php" class="w3-bar-item w3-button">Cyber securité</a>
         <a href="#three" class="w3-bar-item w3-button">Contact</a>
       </div>
@@ -57,6 +58,7 @@
   <nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-hide-medium w3-hide-large"
     style="display:none" id="mySidebar">
     <a href="#one" onclick="myFunction()" class="w3-bar-item w3-button">Mes projets</a>
+    <a href="./cv.html" onclick="myFunction()" class="w3-bar-item w3-button">CV</a>
     <a href="./cyber.php" onclick="myFunction()" class="w3-bar-item w3-button">Cyber securité</a>
     <a href="#three" onclick="myFunction()" class="w3-bar-item w3-button">Contact</a>
   </nav>
@@ -118,6 +120,15 @@
           réel, rendant le cycling à Lyon plus accessible et agréable. Découvrez comment naviguer facilement dans la
           ville tout en contribuant à la réduction de l'empreinte carbone grâce à une alternative de transport durable.
         </p>
+
+        <h2>Réalisation d'une thèse sur l'intelligence artificielle, l'impact d'aujourd'hui.</h2>
+        <p>
+          Explication de machine de Turing et du test de Turing.<br>
+          Dans cette thèse, j'explique l'intelligence artificielle dans les années 1964, avec le programme Elisa qui avait pour but de prendre le rôle d'un psychothérapeute.<br>
+          Je parle de l'effet Elisa et de l'impact de l'intelligence artificielle dans notre ère actuelle.<br>
+          Développement d'un contexte problématique complexe avec l'intelligence intelligence artificielle afin d'expliquer dans un cadre plus précis l'effet d'Elisa.
+        </p>
+
       </div>
     </div>
   </div>
