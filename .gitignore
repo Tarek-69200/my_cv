@@ -18,3 +18,4 @@ README.txt
 *.env.production.local
 
 
+.htaccess
