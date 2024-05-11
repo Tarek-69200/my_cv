@@ -1,27 +1,37 @@
 <?php
 
-require_once 'vendor/autoload.php';
-require_once 'config/routes.php';
 
-$router  = new AltoRouter();
+require_once 'controllers/CvController.php';
+require_once 'controllers/CyberController.php';
+require_once 'controllers/HomeController.php';
+require_once 'controllers/NotFoundController.php';
 
-$routes = require 'config/routes.php';
+// Inclusion de AltoRouter
+require_once 'vendor/autoload.php'; // Assurez-vous d'inclure correctement le fichier autoload.php de AltoRouter
 
-foreach ($routes as $route => $controllerAction) {
-  $router->map('GET', $route, $controllerAction);
+// Chargement du fichier de configuration des routes
+$routes = include './config/routes.php';
+
+// Initialisation de AltoRouter
+$router = new AltoRouter();
+
+
+$router->setBasePath('/');
+
+foreach ($routes as $path => $target) {
+    $router->map('GET', $path, $target);
 }
 
+// Correspondance de la route actuelle
 $match = $router->match();
 
-if ($match) {
-  list($controller, $action) = explode('@', $match['target']);
-  if (is_callable(array($controller, $action))) {
-    call_user_func_array(array(new $controller, $action), array($match['params']));
-  } else {
-    echo 'Cannot call method ' . $action . ' of class ' . $controller;
-  }
+// Si la route correspond
+if ($match && is_callable($match['target'])) {
+    // Appel de la fonction correspondante du contrôleur
+    call_user_func_array($match['target'], $match['params']);
 } else {
-  header($_SERVER["SERVER_PROTOCOL"] . ' 404 Not Found');
+    // Redirection vers la page 404
+    header($_SERVER["SERVER_PROTOCOL"] . ' 404 Not Found');
+    $notFoundController = new NotFoundController();
+    $notFoundController->index();
 }
-
-?>

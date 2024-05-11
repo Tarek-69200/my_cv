@@ -2,18 +2,7 @@
 
 class CvController {
     public function index() {
-        
-        
-        $route = '/cv';
-        if ($_SERVER['REQUEST_URI'] === $route) {
-            // Your code logic goes here
-        }
-        else {
-            // Redirect to 404 page
-            header('Location: /404');
-        }
-        
-
+        // Inclure la vue du CV
         include_once('./views/cv.php');
     }
 }
