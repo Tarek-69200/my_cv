@@ -1,23 +1,22 @@
 <?php
 
-
+// Inclusion des contrôleurs
 require_once 'controllers/CvController.php';
 require_once 'controllers/CyberController.php';
 require_once 'controllers/HomeController.php';
 require_once 'controllers/NotFoundController.php';
 
 // Inclusion de AltoRouter
-require_once 'vendor/autoload.php'; // Assurez-vous d'inclure correctement le fichier autoload.php de AltoRouter
+require_once 'vendor/autoload.php';
 
 // Chargement du fichier de configuration des routes
-$routes = include './config/routes.php';
+$routes = include 'routes.php';
 
 // Initialisation de AltoRouter
 $router = new AltoRouter();
+$router->setBasePath('/Taguine_PortFolio'); // Chemin de base de votre application
 
-
-$router->setBasePath('/');
-
+// Définition des routes à partir du fichier de configuration
 foreach ($routes as $path => $target) {
     $router->map('GET', $path, $target);
 }
@@ -35,3 +34,5 @@ if ($match && is_callable($match['target'])) {
     $notFoundController = new NotFoundController();
     $notFoundController->index();
 }
+
+?>
