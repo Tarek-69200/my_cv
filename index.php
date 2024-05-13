@@ -5,11 +5,12 @@ require_once './controllers/CyberController.php';
 require_once './controllers/HomeController.php';
 require_once './controllers/NotFoundController.php';
 
-// Inclusion des routes
+$routes = require_once './routes.php';
 
-$routes = require 'routes.php';
 
-switch ($_SERVER['REQUEST_URI']) {
+$uri = $_SERVER['REQUEST_URI'];
+
+switch ($uri) {
     case '/':
         $controller = new HomeController();
         $controller->index();
@@ -27,4 +28,3 @@ switch ($_SERVER['REQUEST_URI']) {
         $controller->index();
         break;
 }
-?>

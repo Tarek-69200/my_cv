@@ -2,7 +2,7 @@
 
 class CyberController {
     public function index() {
-        include_once('./views/cyber.php');
+        include_once("./views/cyber.php");
     }
 }
 
