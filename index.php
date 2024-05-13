@@ -14,25 +14,32 @@ $routes = include 'routes.php';
 
 // Initialisation de AltoRouter
 $router = new AltoRouter();
-$router->setBasePath('/Taguine_PortFolio'); // Chemin de base de votre application
 
-// Définition des routes à partir du fichier de configuration
-foreach ($routes as $path => $target) {
-    $router->map('GET', $path, $target);
+// Configuration des routes
+
+// On boucle sur le tableau de routes
+foreach ($routes as $route) {
+    // On ajoute la route
+    $router->map($route['method'], $route['path'], $route['controller'].'#'.$route['action'], $route['name']);
 }
 
-// Correspondance de la route actuelle
+// On match la route
+
 $match = $router->match();
 
-// Si la route correspond
-if ($match && is_callable($match['target'])) {
-    // Appel de la fonction correspondante du contrôleur
-    call_user_func_array($match['target'], $match['params']);
+// Si la route n'est pas trouvée
+if ($match === false) {
+    // On instancie le contrôleur NotFoundController
+    $controller = new NotFoundController();
+    // On appelle la méthode index
+    $controller->index();
 } else {
-    // Redirection vers la page 404
-    header($_SERVER["SERVER_PROTOCOL"] . ' 404 Not Found');
-    $notFoundController = new NotFoundController();
-    $notFoundController->index();
+    // On récupère le nom du contrôleur et de l'action
+    $targetParts = explode('#', $match['target']);
+    $controllerName = $targetParts[0];
+    $action = $targetParts[1];
+    // On instancie le contrôleur
+    $controller = new $controllerName();
+    // On appelle la méthode
+    $controller->$action();
 }
-
-?>
