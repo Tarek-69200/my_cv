@@ -1,8 +1,12 @@
 <?php
 
+
+
 class CvController {
     public function index() {
-        include_once('./views/cv.php');
+        if ($_SERVER['REQUEST_URI'] == '/cv') {
+            
+        }
     }
 }
 
