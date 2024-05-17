@@ -67,64 +67,74 @@
         TAGUINE Tarek<br>
         Lyon, Auvergne-Rhône-Alpes, France
       </p>
+     
+      <h2>Enjeux de la cybersécurité</h2>
       <p>
-        J'ai orienté ma carrière vers le DevSecOps, afin d'acquérir une solide expertise dans la gestion de serveurs Linux, la configuration des services réseau, la sécurisation des systèmes et la virtualisation. J'ai une préférence pour Debian et ses dérivées, ce qui me donne une base solide pour aborder des projets complexes.
-
-        Dans mon approche, je suis guidé par les recommandations de l'Agence Nationale de la Sécurité des Systèmes d'Information (ANSSI) et de l'Open Web Application Security Project (OWASP). Je veille à intégrer les meilleures pratiques de sécurité dans toutes les étapes du développement, conformément aux normes établies.
-
-        Je réalise régulièrement des audits de sécurité pour évaluer les risques et détecter d'éventuelles vulnérabilités. Ces audits, alignés sur les principes de l'OWASP et les directives de l'ANSSI, m'aident à identifier les zones à risque et à mettre en place des mesures préventives pour renforcer la sécurité de mes applications, garantissant ainsi la protection des données sensibles.
+        La cybersécurité est devenue un enjeu majeur dans notre société de plus en plus connectée. Les attaques informatiques sont de plus en plus sophistiquées et peuvent causer des dommages importants aux entreprises et aux particuliers. Voici quelques-uns des principaux enjeux de la cybersécurité :
       </p>
-      <a href="#one" class="w3-button w3-black w3-round-xlarge">Mes compétences</a>
+     
+        <p>
+          Importance de la sécurité des serveurs et des réseaux informatiques pour plusieurs raisons, notamment la protection des données sensibles, la confidentialité des communications et la disponibilité des services. </p>
+          <ul>
+          <li> Protection des données sensibles contre les fuites et les vols.</li>
+          <li>Disponibilité des services en ligne</li>
+          <li>Le RGPD et la protection de la vie privée des utilisateurs</li>
+          <li>Le maintien de la répuation, une attaque peut avoir des conséquences désastreuses sur l'image d'une entreprise.
+          </li>
+          </ul>
+        
+      <p>
+        La cybersécurité est un domaine en constante évolution et il est important de rester informé des dernières tendances et des meilleures pratiques pour protéger vos données et votre vie privée.
+      </p>
+      <a href="https://github.com/Tarek-69200/security" class="w3-button w3-black w3-round-xlarge">Pour plus d'informations</a>
     </div>
   </div>
 
   <div id="one" class="w3-row-padding w3-padding-64">
     <div class="w3-half">
       <div class="w3-container">
-        <h2>Système d'exploitation</h2>
+        <h2>L'ANSII</h2>
+        <p>L'Agence nationale de la sécurité des systèmes d'information (ANSSI) est l'autorité nationale en matière de sécurité et de défense des systèmes d'information. Elle est chargée de protéger les réseaux informatiques de l'État et des opérateurs d'importance vitale (OIV) contre les cyberattaques. L'ANSSI propose des recommandations et des bonnes pratiques en matière de cybersécurité pour aider les entreprises et les particuliers à se protéger contre les menaces en ligne.</p>
+        <h2>Les certifications en cybersécurité</h2>
+        <p>Il existe de nombreuses certifications en cybersécurité qui permettent de valider ses compétences et ses connaissances dans ce domaine. Voici quelques-unes des certifications les plus reconnues :
+        </p>  
         <ul>
-          <li>Windows 11, 10</li>
-          <li>macOS</li>
-          <li>GNU/Linux</li>
-          <li>Configuration de services réseau</li>
-          <li>Sécurisation des systèmes</li>
-          <li>Virtualisation</li>
-          <li>Debian et ses dérivées</li>
-          <li>Gestion de log serveur</li>
+          <li>Certified Information Systems Security Professional (CISSP)</li>
+          <li>CompTIA Security+</li>
+          <li>Certified Ethical Hacker (CEH)</li>
+          <li>Offensive Security Certified Professional (OSCP)</li>
+          <li>GIAC Security Essentials (GSEC)</li>
+          <li>CISSP - Certified Information Systems Security Professional</li>
+          <li>CompTIA Security+</li>
+          <li>Certified Ethical Hacker (CEH)</li>
+          <li>Offensive Security Certified Professional (OSCP)</li>
+          <li>GIAC Security Essentials (GSEC)</li>
         </ul>
-
-      </div>
     </div>
     <div class="w3-row-padding w3-padding-64">
       <div class="w3-container">
-        <h2>Offensive</h2>
-        <p>Les outils que j'utilise notamment pour le pentest.</p>
+        <h2> L'OWASP </h2>
+        <p>L'Open Web Application Security Project (OWASP) est une communauté internationale dédiée à l'amélioration de la sécurité des logiciels. L'OWASP propose des outils, des ressources et des bonnes pratiques pour aider les développeurs à sécuriser leurs applications web contre les attaques en ligne. Les principaux projets de l'OWASP incluent le Top 10 des vulnérabilités de sécurité des applications web, le Web Security Testing Guide et le Zed Attack Proxy (ZAP).</p>
+        <h2>Les principaux domaines de la cybersécurité</h2>
         <ul>
-          <li>Nmap</li>
-          <li>Metasploit</li>
-          <li>Wireshark</li>
-          <li>John the Ripper</li>
-          <li>Aircrack-ng</li>
-          <li>Hydra</li>
-          <li>Nikto</li>
-          <li>Sqlmap</li>
+          <li>Sécurité des réseaux</li>
+          <li>Sécurité des applications</li>
+          <li>Sécurité des systèmes d'information</li>
+          <li>Sécurité des données</li>
+          <li>Sécurité des infrastructures cloud</li>
+          <li>Sécurité des objets connectés</li>
+          <li>Sécurité des systèmes industriels</li>
+          <li>Sécurité des systèmes embarqués</li>
         </ul>
-
-        <br>
-        <h2>Gouvernance</h2>
-        <ul>
-          <li>Politiques et procédures de sécurité</li>
-          <li>Gestion des risques</li>
-          <li>Conformité aux réglementations</li>
-          <li>Protection des données</li>
-          <li>Plan de continuité des activités</li>
-          <li>Audit et conformité</li>
-          <li>Responsabilité et responsabilisation</li>
-        </ul>
+        <h2>La CNIL</h2>
+        <p>La Commission nationale de l'informatique et des libertés (CNIL) est l'autorité française chargée de protéger les données personnelles et la vie privée des citoyens. La CNIL veille au respect de la loi Informatique et Libertés et du Règlement général sur la protection des données (RGPD) en France. Elle propose des recommandations et des bonnes pratiques en matière de protection des données pour aider les entreprises et les particuliers à se conformer à la réglementation en vigueur.</p>
+        
+      </div>
 
       </div>
     </div>
   </div>
+
 
   <div id="three" class="w3-row-padding w3-padding-32">
     <div class="w3-half w3-margin-auto"></div>

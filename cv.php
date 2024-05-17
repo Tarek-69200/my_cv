@@ -65,10 +65,10 @@
     <div id="intro" class="w3-container w3-padding-64 w3-center w3-animate-opacity">
         <div class="w3-container">
             <img class="w3-image" loading="lazy" src="./assets/css/images/tarek_taguine.webp" alt="Taguine Tarek">
-            <h1>Curriculum vitae</h1>
+            <h1>COMPÉTENCES TECHNIQUES</h1>
             <p>
                 TAGUINE Tarek<br>
-                Lyon, Auvergne-Rhône-Alpes, France
+                Lyon, Auvergne-Rhône-Alpes, France 
             </p>
             <p>
                 <a href="https://www.linkedin.com/in/tarek-nordine-taguine/" target="_blank"
@@ -79,29 +79,23 @@
     <div id="one" class="w3-row-padding w3-padding-64">
         <div class="w3-half">
             <div class="w3-container">
-                <h2>COMPÉTENCES TECHNIQUES</h2>
+                <h2>Compétences front-end</h2>
                 <ul>
-                    <li>Maîtrise des technologies : JavaScript, Node.js, React, Symfony, MySQL, MongoDB.</li>
-                    <li>Conception de base de données : UML, MERISE.</li>
-                    <li>Conception d'API REST.</li>
-                    <li>Réalisation des tests unitaire avec Jest, PHP Unit</li>
-                    <li>Gestion d'authentification et autorisations avec un système JWT</li>
-                    <li>Intégration continue et déploiement continue.</li>
-                    <li>Connaissance des méthodes agiles.</li>
-                    <li>Accessibilité et référencement naturel SEO</li>
+                    <li>HTML5 / CSS3</li>
+                    <li>SveltJS4 / VueJS</li>
+                    <li>React18 / React Native 0.73</li>
+                    <li>W3C / Web Standards</li>
+                    <li>Responsive Design</li>
+                    <li>SEO</li>
+                    <li>Accessibilité</li>
+                    <li>Performance</li>
+                </ul>
                 </ul>
 
             </div>
         </div>
         <div class="w3-row-padding w3-padding-64">
             <div class="w3-container">
-                <h2>Front-End</h2>
-                <ul>
-                    <li>HTML5 / CSS3</li>
-                    <li>SveltJS4 / VueJS</li>
-                    <li>React18 / React Native 0.73</li>
-                </ul>
-                <br>
                 <h2>Back-End</h2>
                 <ul>
                     <li>PHP 8 / Symfony 7</li>
@@ -109,8 +103,18 @@
                     <li>Python 3.12/ Django 3</li>
                     <li>Serveur SGBD : MySQL / NoSQL</li>
                 </ul>
+                <br>
+                <h2>Offensive - SecOps</h2>
+                <ul>
+                    <li>Metasploit</li>
+                    <li>Wirkshark</li>
+                    <li>John the Ripper</li>
+                    <li>OwaspZAP</li>
+                    <li>Sqlmap</li>
+                    <li>Hydra</li>
+                </ul>
 
-                <h2>Outils de Développement/ système d'exploitation </h2>
+                <h2>Outils de Développement/ Système d'exploitation </h2>
                 <ul>
                     <li>Git / GitHub</li>
                     <li>Codespaces</li>
@@ -125,16 +129,16 @@
                     <li>macOS</li>
                 </ul>
 
-
-                <h2>Réalisation d'une thèse sur l'intelligence artificielle, l'impact d'aujourd'hui.</h2>
+                <h2>Methode DevSecOps</h2>
                 <ul>
-                    <li>Explication de machine de Turing et du test de Turing.</li>
-                    <li>Dans cette thèse, j'explique l'intelligence artificielle dans les années 1964, avec le programme
-                        Elisa qui avait pour but de prendre le rôle d'un psychothérapeute</li>
-                    <li>Je parle de l'effet Elisa et de l'impact de l'intelligence artificielle dans notre ère actuelle.
-                    </li>
-                    <li>Développement d'un contexte problématique complexe avec l'intelligence intelligence artificielle
-                        afin d' expliquer dans un cadre plus précis l'effet d'Elisa </li>
+                    <li>CI/CD</li>
+                    <li>Tests unitaires</li>
+                    <li>Tests fonctionnels</li>
+                    <li>Tests de performance</li>
+                    <li>Tests de sécurité</li>
+                    <li>Monitoring</li>
+                    <li>Alerting</li>
+                    <li>Documentation</li>
                 </ul>
 
                 <h2>Méthode de travail</h2>
