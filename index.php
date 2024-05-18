@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="fr">
 <!-- Head -->
@@ -9,8 +7,7 @@
   <link rel="icon" type="image/x-icon" href="favicon.png">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description"
-    content="Développeur Back-End basé sur Lyon spécialisé en Node.js et PHP Symfony. Création de solutions backend performantes et sécurisées">
+  <meta name="description" content="Développeur Back-End basé sur Lyon spécialisé en Node.js et PHP Symfony. Création de solutions backend performantes et sécurisées">
   <meta name="author" content="Taguine Tarek">
   <meta name="keywords" content="Taguine Tarek, Développeur Back-End, Node.js, PHP Symfony, Rhône, Lyon, 69 France">
   <meta name="google-site-verification" content="puEyUWPXIZDB1jr8YMNu99xhJFw10rOUpPADVcjn2s4">
@@ -30,15 +27,14 @@
     <div class="w3-display-bottomleft w3-padding-large w3-opacity">
       <h1 class="w3-xxlarge">Taguine Tarek</h1>
       <img class="img" loading="lazy" src="./assets/images/tarek_taguine.webp" alt="Taguine Tarek Nordine">
-        </div>
+    </div>
   </header>
 
   <div class="w3-top">
     <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
       <a href="#home" class="w3-bar-item w3-button">Taguine Tarek</a>
       <div class="w3-right w3-hide-large w3-hide-medium">
-        <a href="#" class="w3-bar-item w3-button w3-padding-large" title="Toggle Navigation Menu"
-          onclick="myFunction(); return false;">
+        <a href="#" class="w3-bar-item w3-button w3-padding-large" title="Toggle Navigation Menu" onclick="myFunction(); return false;">
           <i class="fa fa-bars"></i>
           <span class="w3-hide-large w3-hide-medium">Menu</span>
 
@@ -47,7 +43,7 @@
 
       <div id="menuLinks" class="w3-hide-small">
         <a href="#one" class="w3-bar-item w3-button">Mes projets</a>
-        <a href="./cv.html" class="w3-bar-item w3-button">CV</a>
+        <a href="./cv.php" class="w3-bar-item w3-button">CV</a>
         <a href="./cyber.php" class="w3-bar-item w3-button">Cyber securité</a>
         <a href="#three" class="w3-bar-item w3-button">Contact</a>
       </div>
@@ -55,10 +51,9 @@
   </div>
 
   <!-- Sidebar on small screens when clicking the menu icon -->
-  <nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-hide-medium w3-hide-large"
-    style="display:none" id="mySidebar">
+  <nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
     <a href="#one" onclick="myFunction()" class="w3-bar-item w3-button">Mes projets</a>
-    <a href="./cv.html" onclick="myFunction()" class="w3-bar-item w3-button">CV</a>
+    <a href="./cv.php" onclick="myFunction()" class="w3-bar-item w3-button">CV</a>
     <a href="./cyber.php" onclick="myFunction()" class="w3-bar-item w3-button">Cyber securité</a>
     <a href="#three" onclick="myFunction()" class="w3-bar-item w3-button">Contact</a>
   </nav>
@@ -82,44 +77,25 @@
   </div>
 
   <div id="one" class="w3-row-padding w3-padding-64">
-    <div class="w3-half">
-      <div class="w3-container">
-        <h2>Développement d'un ERP</h2>
-        <p>Le projet consiste à développer un Progiciel de gestion intégrée. Un ERP (Enterprise Resource Planning) est
-          un système logiciel intégré qui optimise la gestion des processus métier d'une entreprise. Cela inclut des
-          modules tels que la gestion des ressources humaines, la finance, les stocks, etc. Les avantages comprennent
-          l'automatisation, l'accès en temps réel, la normalisation des processus, la sécurité des données et des
-          outils
-          de reporting et d'analyse. L'objectif est d'améliorer l'efficacité opérationnelle et la prise de décision.
-        </p>
-
-      </div>
-    </div>
+    <div class="w3-container">
+      <h1 class="w3-center">Mes projets</h1>
+      <p class="w3-center">Découvrez mes projets réalisés au cours de mes études et de mes expériences professionnelles.</p>
     <div class="w3-row-padding w3-padding-64">
       <div class="w3-container">
-        <h2>FAST SERVICES - Application de services restauration</h2>
-        <p>Le projet consiste à apporter un gain de temps dans la prise de commande où c'est le client qui scan la table
-          via un QR Code et réalise sois-même la commande. Conception des diagrammes UML/MERISE afin de développer la
-          base de données (SQL). Réalisation d'un jeu de données afin de tester la base de donnés. Développement d'une
-          API REST en NodeJS avec l'ORM Sequelize. Développement d'une application front-end avec la technologie VueJS
-          et consommation du web service.</p>
-        <br>
-        <h2>Développement du projet Handy Mirror (IoT)</h2>
-        <p>Projet collaboratif réalisé pour le développement d'un miroir connecté dans le cadre d'assister les personnes
-          atteintes de TDAH. Développement de l'application mobile avec la technologie React Native pour les versions
-          Android - iOS. Développement de l'API REST avec la technologie NodeJS afin de faire communiquer l'application
-          avec le miroir connecté. Développement de la fonctionnalité de reconnaissance faciale avec la librairie OpenCV
-          en Python et application du RGPD. Mise en place d'un système de gestion de module.</p>
 
-        <h2>Application Web Vélo'v Lyon : Localisation en Temps Réel des Vélos</h2>
-        <p>Une application Web intègre des données de localisation précises provenant de deux services web essentiels.
-          Elle permet de visualiser instantanément les stations Vélo'V disponibles, le nombre de vélos libres et les
-          emplacements de stationnement vacants. Idéale pour la planification de trajets écologiques, notre application
-          facilite l'accès aux vélos partagés et améliore l'efficacité des déplacements dans Lyon. Les fonctionnalités
-          clés incluent la recherche de station Vélo'V, la gestion de l'itinéraire en vélo, et des mises à jour en temps
-          réel, rendant le cycling à Lyon plus accessible et agréable. Découvrez comment naviguer facilement dans la
-          ville tout en contribuant à la réduction de l'empreinte carbone grâce à une alternative de transport durable.
+        <h2>M1 Responsable Cybersécurité - 2024-2025 - CSB School
+          Lyon labellisée par l’ANSII</h2>
+        <p>
+          Le Master 1 Responsable de la sécurité des systèmes d'information forme des professionnels capables de
+          concevoir, mettre en œuvre et gérer la sécurité des systèmes d'information. Les étudiants acquièrent des
+          compétences techniques et managériales pour protéger les données et les systèmes informatiques des entreprises
         </p>
+        <ul>
+          <li>Industrial Cybersecurity (OT)</li>
+          <li>Crisis and Incident Management (SOC)</li>
+          <li>Governance, Risks, and Compliance (GRC)</li>
+
+        </ul>
 
         <h2>Réalisation d'une thèse sur l'intelligence artificielle, l'impact d'aujourd'hui.</h2>
         <p>
@@ -129,8 +105,94 @@
           Développement d'un contexte problématique complexe avec l'intelligence intelligence artificielle afin d'expliquer dans un cadre plus précis l'effet d'Elisa.
         </p>
 
+
+        <h2>FAST SERVICES - Application de services restauration.</h2>
+        <p>Le projet consiste à apporter un gain de temps dans la prise de commande où c'est le client qui scan la table
+          via un QR Code et réalise sois-même la commande. Conception des diagrammes UML/MERISE afin de développer la
+          base de données (SQL). Réalisation d'un jeu de données afin de tester la base de donnés. Développement d'une
+          API REST en NodeJS avec l'ORM Sequelize. Développement d'une application front-end avec la technologie VueJS
+          et consommation du web service.</p>
+
+        <ul>
+          <li>Conception et modélisation de la base de données relationnel.</li>
+          <li>Développement de l'API REST en NodeJS avec l'ORM Sequelize.</li>
+          <li>Développement des jeux de données pour tester la base de données.</li>
+          <li>Mise en place d'un JWT pour sécuriser l'API.</li>
+          <li>Développement de l'application front-end avec la technologie VueJS.</li>
+          <li>Consommation du web service.</li>
+        </ul>
+
+
+        <br>
+        <h2>Mode Bulles - Développeur Full Stack - Gestion du Serveur 2023-2024</h2>
+        <p>Le projet consiste à développer une functionnalitée d'un site web pour une entreprise de vente de vêtements en ligne. J'ai également contribué à la gestion
+          du serveur et à la sécurité de l'infrascruture. J'ai travaillé en étroite collaboration avec les
+          équipes de design et de marketing pour assurer la cohérence de l'expérience utilisateur et l'optimisation du
+          référencement naturel (SEO).</p>
+
+        <ul>
+          <li>Collecte des besoins et élaboration des cahiers des charges du client.</li>
+          <li>Création d'une fonctionnalité permettant de générer aléatoirement des personnages pour les achats personnalisés, avec génération d'images artificielles.</li>
+          <li>Sécurisation d'un site Wordpress avec optimisation du référencement (SEO).</li>
+        </ul>
+
+
+
+        <h2>2MN DIGITAL-SERVICES - Développeur Full Stack 2022-2023</h2>
+        <p>
+          Le projet consiste à développer un site web pour une entreprise de services numériques. Au seins de l'équipe de développement, j'ai participé à la conception et au développement de l'ERP. J'ai également contribué à la mise en place de l'architecture technique et à l'intégration des maquettes graphiques. J'ai travaillé en étroite collaboration avec les équipes de design et de marketing pour assurer la cohérence de l'expérience utilisateur et l'optimisation du référencement naturel (SEO).
+        </p>
+        <ul>
+          <li>Migration d'un ERP de Symfony 4 à NodeJs V20 en utilisant le
+            framework Express pour créer une API REST complète
+            conforme aux recommandations d'OWASP.</li>
+          <li>Analyse des besoins des clients et consultation pour optimiser
+            les moteurs de recherche (SEO).</li>
+          <li>Conception et intégration des maquettes en respectant la
+            charte graphique des clients, en privilégiant le mobile first,
+            puis la tablette et le desktop.</li>
+        </ul>
+
+        <h2>Développement du projet Handy Mirror (IoT)</h2>
+        <p>Projet collaboratif réalisé pour le développement d'un miroir connecté dans le cadre d'assister les personnes
+          atteintes de TDAH. Développement de l'application mobile avec la technologie React Native pour les versions
+          Android - iOS. Développement de l'API REST avec la technologie NodeJS afin de faire communiquer l'application
+          avec le miroir connecté. Développement de la fonctionnalité de reconnaissance faciale avec la librairie OpenCV
+          en Python et application du RGPD. Mise en place d'un système de gestion de module.</p>
+        <ul>
+          <li>Conception et modélisation de la base de données.</li>
+          <li>Développement de l'API REST en NodeJS avec l'ODM Mongoose</li>
+          <li>Développement de l'application front-end avec la technologie React Native (Android /iOS).</li>
+          <li>Consommation du web service.</li>
+          <li>
+            Développement de la fonctionnalité de reconnaissance faciale avec la librairie OpenCV en Python et application du RGPD.
+          </li>
+        </ul>
+
+        <h2>Application Web Vélo'v Lyon : Localisation en Temps Réel des Vélos</h2>
+        <p>Une application Web intègre des données de localisation précises provenant de deux services web essentiels. Elle permet de visualiser instantanément les stations Vélo'V disponibles, le nombre de vélos libres et les emplacements de stationnement vacants. Idéale pour la planification de trajets écologiques, notre application facilite l'accès aux vélos partagés et améliore l'efficacité des déplacements dans Lyon.</p>
+        <ul>
+          <li>Projet collaboartif dans le cadre de développer une WebApp et une application mobile</li>
+          <li>Développement de l'application front-end avec la technologie React Native.</li>
+          <li>Consommation du web service.</li>
+          <li>Travail en méthode agile.</li>
+        </ul>
+
+
+        <h2>IT-AKADEMY 2020-2023 - Développeur Full Stack (License)</h2>
+        <ul>
+          <li>Participation au pilotage de projets d'application ou de site
+            web.</li>
+          <li>Conception et modélisation d'applications ou de sites web.</li>
+          <li>Développement de la partie front-end et back-end.</li>
+          <li> Déploiement et maintien en production d'applications ou de sites web (DevOps).</li>
+          <li>Mise en œuvre de solutions techniques répondant aux besoins
+            contextuels ou réglementaires.</li>
+        </ul>
+
       </div>
     </div>
+  </div>
   </div>
 
   <div id="three" class="w3-row-padding w3-padding-32">
@@ -175,15 +237,18 @@
 
   <script defer src="./assets/js/script.js"></script>
   <script src="./assets/js/gz.js"></script>
- <!-- Google tag (gtag.js) -->
- <script async src="https://www.googletagmanager.com/gtag/js?id=G-3JT6RQ1F45"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-3JT6RQ1F45"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-        gtag('config', 'G-3JT6RQ1F45');
-    </script>
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-3JT6RQ1F45');
+  </script>
 
 
 
