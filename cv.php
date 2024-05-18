@@ -3,22 +3,16 @@
 <!-- Head -->
 
 <head>
-    <title>Developpeur Back-End, Rhône, Lyon, 69, Lyon 1, Lyon 2, Lyon 3, Lyon 4, Lyon 5, Lyon 6 </title>
+    <title>Développeur Back-End, Rhône, Savoie, Devops, DevSecOps, Lyon, 69, Chambéry, Annecy</title>
     <link rel="icon" type="image/x-icon" href="favicon.png">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description"
-        content="Développeur Back-End basé sur Lyon spécialisé en Node.js et PHP Symfony. Création de solutions backend performantes et sécurisées">
+    <meta name="description" content="Développeur Back-End basé sur Lyon spécialisé en Node.js et PHP Symfony. Création de solutions backend performantes et sécurisées dans les régions Rhône et Savoie.">
     <meta name="author" content="Taguine Tarek">
-    <meta name="keywords" content="Taguine Tarek, Développeur Back-End, Node.js, PHP Symfony, Rhône, Lyon, 69 France">
+    <meta name="keywords" content="Taguine Tarek, Développeur Back-End, DevOps, DevSecOps, Node.js, PHP Symfony, Rhône, Savoie, Lyon, Chambéry, Annecy, 69 France, 73 France, 74 France, Développement web, Sécurité informatique">
     <meta name="google-site-verification" content="puEyUWPXIZDB1jr8YMNu99xhJFw10rOUpPADVcjn2s4">
-
-
     <link rel="stylesheet" href="./assets/css/main.css">
     <link rel="stylesheet" href="./assets/css/picture.css">
-
-
-
 </head>
 
 
@@ -37,8 +31,7 @@
         <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
             <a href="./index.php" class="w3-bar-item w3-button">Taguine Tarek</a>
             <div class="w3-right w3-hide-large w3-hide-medium">
-                <a href="./index.php" class="w3-bar-item w3-button w3-padding-large" title="Toggle Navigation Menu"
-                    onclick="myFunction(); return false;">
+                <a href="./index.php" class="w3-bar-item w3-button w3-padding-large" title="Toggle Navigation Menu" onclick="myFunction(); return false;">
                     <i class="fa fa-bars"></i>
                     <span class="w3-hide-large w3-hide-medium">Menu</span>
 
@@ -54,8 +47,7 @@
     </div>
 
     <!-- Sidebar on small screens when clicking the menu icon -->
-    <nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-hide-medium w3-hide-large"
-        style="display:none" id="mySidebar">
+    <nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
         <a href="./index.php" onclick="myFunction()" class="w3-bar-item w3-button">Mes projets</a>
         <a href="./cyber.php" onclick="myFunction()" class="w3-bar-item w3-button">Cyber securité</a>
         <a href="#three" onclick="myFunction()" class="w3-bar-item w3-button">Contact</a>
@@ -64,15 +56,14 @@
 
     <div id="intro" class="w3-container w3-padding-64 w3-center w3-animate-opacity">
         <div class="w3-container">
-            <img class="w3-image" loading="lazy" src="./assets/css/images/tarek_taguine.webp" alt="Taguine Tarek">
+            <img class="w3-image" loading="lazy" src="./assets/images/tarek_taguine.webp" alt="Taguine Tarek">
             <h1>COMPÉTENCES TECHNIQUES</h1>
             <p>
                 TAGUINE Tarek<br>
-                Lyon, Auvergne-Rhône-Alpes, France 
+                Lyon, Auvergne-Rhône-Alpes, France
             </p>
             <p>
-                <a href="https://www.linkedin.com/in/tarek-nordine-taguine/" target="_blank"
-                    class="w3-button w3-black w3-padding-large w3-large w3-margin-top">LinkedIn</a>
+                <a href="https://www.linkedin.com/in/tarek-nordine-taguine/" target="_blank" class="w3-button w3-black w3-padding-large w3-large w3-margin-top">LinkedIn</a>
         </div>
     </div>
 
@@ -90,7 +81,7 @@
                     <li>Accessibilité</li>
                     <li>Performance</li>
                 </ul>
-                </ul>
+
 
             </div>
         </div>
@@ -194,18 +185,6 @@
     </footer>
 
     <script defer src="./assets/js/script.js"></script>
-    <script src="./assets/js/gz.js"></script>
-
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3JT6RQ1F45"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'G-3JT6RQ1F45');
-    </script>
-
 
 </body>
 
