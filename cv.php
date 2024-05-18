@@ -81,7 +81,7 @@
                     <li>Accessibilité</li>
                     <li>Performance</li>
                 </ul>
-                </ul>
+            
 
             </div>
         </div>
