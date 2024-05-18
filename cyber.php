@@ -56,28 +56,28 @@
 
   <div id="intro" class="w3-container w3-padding-64 w3-center w3-animate-opacity">
     <div class="w3-container">
-      <img class="w3-image" loading="lazy" src="./assets/css/images/tarek_taguine.webp" alt="Taguine Tarek">
+      <img class="w3-image" loading="lazy" src="./assets/images/tarek_taguine.webp" alt="Taguine Tarek">
       <h1>DevSecOps</h1>
       <p>
         TAGUINE Tarek<br>
         Lyon, Auvergne-Rhône-Alpes, France
       </p>
-     
+
       <h2>Enjeux de la cybersécurité</h2>
       <p>
         La cybersécurité est devenue un enjeu majeur dans notre société de plus en plus connectée. Les attaques informatiques sont de plus en plus sophistiquées et peuvent causer des dommages importants aux entreprises et aux particuliers. Voici quelques-uns des principaux enjeux de la cybersécurité :
       </p>
-     
-        <p>
-          Importance de la sécurité des serveurs et des réseaux informatiques pour plusieurs raisons, notamment la protection des données sensibles, la confidentialité des communications et la disponibilité des services. </p>
-          <ul>
-          <li> Protection des données sensibles contre les fuites et les vols.</li>
-          <li>Disponibilité des services en ligne</li>
-          <li>Le RGPD et la protection de la vie privée des utilisateurs</li>
-          <li>Le maintien de la répuation, une attaque peut avoir des conséquences désastreuses sur l'image d'une entreprise.
-          </li>
-          </ul>
-        
+
+      <p>
+        Importance de la sécurité des serveurs et des réseaux informatiques pour plusieurs raisons, notamment la protection des données sensibles, la confidentialité des communications et la disponibilité des services. </p>
+      <ul>
+        <li> Protection des données sensibles contre les fuites et les vols.</li>
+        <li>Disponibilité des services en ligne</li>
+        <li>Le RGPD et la protection de la vie privée des utilisateurs</li>
+        <li>Le maintien de la répuation, une attaque peut avoir des conséquences désastreuses sur l'image d'une entreprise.
+        </li>
+      </ul>
+
       <p>
         La cybersécurité est un domaine en constante évolution et il est important de rester informé des dernières tendances et des meilleures pratiques pour protéger vos données et votre vie privée.
       </p>
@@ -92,7 +92,7 @@
         <p>L'Agence nationale de la sécurité des systèmes d'information (ANSSI) est l'autorité nationale en matière de sécurité et de défense des systèmes d'information. Elle est chargée de protéger les réseaux informatiques de l'État et des opérateurs d'importance vitale (OIV) contre les cyberattaques. L'ANSSI propose des recommandations et des bonnes pratiques en matière de cybersécurité pour aider les entreprises et les particuliers à se protéger contre les menaces en ligne.</p>
         <h2>Les certifications en cybersécurité</h2>
         <p>Il existe de nombreuses certifications en cybersécurité qui permettent de valider ses compétences et ses connaissances dans ce domaine. Voici quelques-unes des certifications les plus reconnues :
-        </p>  
+        </p>
         <ul>
           <li>Certified Information Systems Security Professional (CISSP)</li>
           <li>CompTIA Security+</li>
@@ -105,26 +105,26 @@
           <li>Offensive Security Certified Professional (OSCP)</li>
           <li>GIAC Security Essentials (GSEC)</li>
         </ul>
-    </div>
-    <div class="w3-row-padding w3-padding-64">
-      <div class="w3-container">
-        <h2> L'OWASP </h2>
-        <p>L'Open Web Application Security Project (OWASP) est une communauté internationale dédiée à l'amélioration de la sécurité des logiciels. L'OWASP propose des outils, des ressources et des bonnes pratiques pour aider les développeurs à sécuriser leurs applications web contre les attaques en ligne. Les principaux projets de l'OWASP incluent le Top 10 des vulnérabilités de sécurité des applications web, le Web Security Testing Guide et le Zed Attack Proxy (ZAP).</p>
-        <h2>Les principaux domaines de la cybersécurité</h2>
-        <ul>
-          <li>Sécurité des réseaux</li>
-          <li>Sécurité des applications</li>
-          <li>Sécurité des systèmes d'information</li>
-          <li>Sécurité des données</li>
-          <li>Sécurité des infrastructures cloud</li>
-          <li>Sécurité des objets connectés</li>
-          <li>Sécurité des systèmes industriels</li>
-          <li>Sécurité des systèmes embarqués</li>
-        </ul>
-        <h2>La CNIL</h2>
-        <p>La Commission nationale de l'informatique et des libertés (CNIL) est l'autorité française chargée de protéger les données personnelles et la vie privée des citoyens. La CNIL veille au respect de la loi Informatique et Libertés et du Règlement général sur la protection des données (RGPD) en France. Elle propose des recommandations et des bonnes pratiques en matière de protection des données pour aider les entreprises et les particuliers à se conformer à la réglementation en vigueur.</p>
-        
       </div>
+      <div class="w3-row-padding w3-padding-64">
+        <div class="w3-container">
+          <h2> L'OWASP </h2>
+          <p>L'Open Web Application Security Project (OWASP) est une communauté internationale dédiée à l'amélioration de la sécurité des logiciels. L'OWASP propose des outils, des ressources et des bonnes pratiques pour aider les développeurs à sécuriser leurs applications web contre les attaques en ligne. Les principaux projets de l'OWASP incluent le Top 10 des vulnérabilités de sécurité des applications web, le Web Security Testing Guide et le Zed Attack Proxy (ZAP).</p>
+          <h2>Les principaux domaines de la cybersécurité</h2>
+          <ul>
+            <li>Sécurité des réseaux</li>
+            <li>Sécurité des applications</li>
+            <li>Sécurité des systèmes d'information</li>
+            <li>Sécurité des données</li>
+            <li>Sécurité des infrastructures cloud</li>
+            <li>Sécurité des objets connectés</li>
+            <li>Sécurité des systèmes industriels</li>
+            <li>Sécurité des systèmes embarqués</li>
+          </ul>
+          <h2>La CNIL</h2>
+          <p>La Commission nationale de l'informatique et des libertés (CNIL) est l'autorité française chargée de protéger les données personnelles et la vie privée des citoyens. La CNIL veille au respect de la loi Informatique et Libertés et du Règlement général sur la protection des données (RGPD) en France. Elle propose des recommandations et des bonnes pratiques en matière de protection des données pour aider les entreprises et les particuliers à se conformer à la réglementation en vigueur.</p>
+
+        </div>
 
       </div>
     </div>
@@ -172,18 +172,7 @@
   </footer>
 
   <script defer src="./assets/js/script.js"></script>
-  <script src="./assets/js/gz.js"></script>
- <!-- Google tag (gtag.js) -->
- <script async src="https://www.googletagmanager.com/gtag/js?id=G-3JT6RQ1F45"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'G-3JT6RQ1F45');
-    </script>
-
-
+ 
 
 </body>
 
