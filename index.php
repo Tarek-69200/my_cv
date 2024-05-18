@@ -3,13 +3,13 @@
 <!-- Head -->
 
 <head>
-  <title>Developpeur Back-End, Rhône, Lyon, 69, Lyon 1, Lyon 2, Lyon 3, Lyon 4, Lyon 5, Lyon 6 </title>
+  <title>Developpeur Back-End, Rhône, Devops, DevSecOps, Lyon, 69, Lyon 1, Lyon 2, Lyon 3, Lyon 4, Lyon 5, Lyon 6 </title>
   <link rel="icon" type="image/x-icon" href="favicon.png">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Développeur Back-End basé sur Lyon spécialisé en Node.js et PHP Symfony. Création de solutions backend performantes et sécurisées">
   <meta name="author" content="Taguine Tarek">
-  <meta name="keywords" content="Taguine Tarek, Développeur Back-End, Node.js, PHP Symfony, Rhône, Lyon, 69 France">
+  <meta name="keywords" content="Taguine Tarek, Développeur Back-End, DevOps, DevSecOps, Node.js, PHP Symfony, France, Rhône, Lyon, Savoie, 69, 74">
   <meta name="google-site-verification" content="puEyUWPXIZDB1jr8YMNu99xhJFw10rOUpPADVcjn2s4">
 
 
