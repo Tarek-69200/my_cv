@@ -3,19 +3,15 @@
 <!-- Head -->
 
 <head>
-  <title>Développeur Back-End, DevOps, DevSecOps, Node.js, PHP Symfony, Savoie, Chambéry, Annecy, 73 France, Développement web, Sécurité informatique</title>
+  <title>Développeur Back-End à Savoie | Node.js, PHP Symfony, DevOps</title>
   <link rel="icon" type="image/x-icon" href="favicon.png">
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Développeur Back-End basé sur Lyon spécialisé en Node.js et PHP Symfony. Création de solutions backend performantes et sécurisées dans la région de la Savoie.">
   <meta name="author" content="Taguine Tarek">
   <meta name="keywords" content="Développeur Back-End, DevOps, DevSecOps, Node.js, PHP Symfony, Savoie, Chambéry, Annecy, 73 France, Développement web, Sécurité informatique">
   <meta name="google-site-verification" content="puEyUWPXIZDB1jr8YMNu99xhJFw10rOUpPADVcjn2s4">
-  <meta name="robots" content="🤖">
-  <meta name="code" content="💻">
-  <meta name="bug" content="🐛">
-  <meta name="database" content="🗄️">
-  <meta name="cloud" content="☁️">
+  <meta name="robots" content="index, follow">
   <link rel="stylesheet" href="./assets/css/main.css">
   <link rel="stylesheet" href="./assets/css/picture.css">
 </head>
