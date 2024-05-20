@@ -12,9 +12,24 @@
   <meta name="keywords" content="Développeur Back-End, DevOps, DevSecOps, Node.js, PHP Symfony, Savoie, Chambéry, Annecy, 73 France, Développement web, Sécurité informatique">
   <meta name="google-site-verification" content="puEyUWPXIZDB1jr8YMNu99xhJFw10rOUpPADVcjn2s4">
   <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://votre-site.com/DevOps.php">
   <link rel="stylesheet" href="./assets/css/main.css">
   <link rel="stylesheet" href="./assets/css/picture.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Développeur Back-End à Savoie | Node.js, PHP Symfony, DevOps",
+    "description": "Développeur Back-End basé sur Lyon spécialisé en Node.js et PHP Symfony. Création de solutions backend performantes et sécurisées dans la région de la Savoie.",
+    "author": {
+      "@type": "Person",
+      "name": "Taguine Tarek"
+    },
+    "url": "https://votre-site.com/DevOps.php"
+  }
+  </script>
 </head>
+
 
 <body class="w3-light-grey">
   <!-- Header -->
