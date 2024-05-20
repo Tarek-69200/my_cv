@@ -11,6 +11,11 @@
   <meta name="author" content="Taguine Tarek">
   <meta name="keywords" content="Développeur Back-End, DevOps, DevSecOps, Node.js, PHP Symfony, Savoie, Chambéry, Annecy, 73 France, Développement web, Sécurité informatique">
   <meta name="google-site-verification" content="puEyUWPXIZDB1jr8YMNu99xhJFw10rOUpPADVcjn2s4">
+  <meta name="robots" content="🤖">
+  <meta name="code" content="💻">
+  <meta name="bug" content="🐛">
+  <meta name="database" content="🗄️">
+  <meta name="cloud" content="☁️">
   <link rel="stylesheet" href="./assets/css/main.css">
   <link rel="stylesheet" href="./assets/css/picture.css">
 </head>
@@ -67,7 +72,7 @@
       dans le développement Back-End. Je suis à la recherche de nouvelles
       connaissances dans le monde de la cybersécurité. Actuellement, je suis à l'écoute du marché dans la région de la Savoie,pour de nouvelles opportunités professionnelles.
     </p>
-      </p>
+      
       <a href="#one" class="w3-button w3-black w3-round-xlarge">Mes projets</a>
     </div>
   </div>
