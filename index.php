@@ -64,8 +64,7 @@
       </p>
       <p>
         Passionné par le développement informatique, je me suis spécialisé
-        dans le développement Back-End. Je suis à la recherche de nouvelles
-        connaissances dans le monde de la cybersécurité.
+        dans le développement Back-End.
       </p>
       <a href="#one" class="w3-button w3-black w3-round-xlarge">Mes projets</a>
     </div>
