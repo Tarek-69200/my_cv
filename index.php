@@ -173,7 +173,7 @@
           </ul>
 
 
-          <h2>IT-AKADEMY 2020-2023 - Développeur Full Stack (License)</h2>
+          <h2>IT-AKADEMY 2022-2023 - Développeur Full Stack (License)</h2>
           <ul>
             <li>Participation au pilotage de projets d'application ou de site
               web.</li>
