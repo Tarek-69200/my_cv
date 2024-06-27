@@ -77,19 +77,6 @@
       <div class="w3-row-padding w3-padding-64">
         <div class="w3-container">
 
-          <h2>M1 Responsable Cybersécurité - 2024-2025 - CSB School
-            Lyon labellisée par l’ANSII</h2>
-          <p>
-            Le Master 1 Responsable de la sécurité des systèmes d'information forme des professionnels capables de
-            concevoir, mettre en œuvre et gérer la sécurité des systèmes d'information. Les étudiants acquièrent des
-            compétences techniques et managériales pour protéger les données et les systèmes informatiques des entreprises
-          </p>
-          <ul>
-            <li>Industrial Cybersecurity (OT)</li>
-            <li>Crisis and Incident Management (SOC)</li>
-            <li>Governance, Risks, and Compliance (GRC)</li>
-
-          </ul>
 
           <h2>Réalisation d'une thèse sur l'intelligence artificielle, l'impact d'aujourd'hui.</h2>
           <p>
