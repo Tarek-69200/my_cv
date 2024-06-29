@@ -9,12 +9,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Développeur Back-End basé sur Lyon spécialisé en Node.js et PHP Symfony. Création de solutions backend performantes et sécurisées dans la région de la Savoie.">
   <meta name="author" content="Taguine Tarek">
-  <meta name="keywords" content="Développeur Back-End, DevOps, DevSecOps, Node.js, PHP Symfony, Savoie, Chambéry, Annecy, 73 France, Développement web, Sécurité informatique">
+  <meta name="keywords" content="Développeur Back-End, DevOps, DevSecOps, Node.js, PHP Symfony, Savoie, Chambéry, Annecy, 74 France, Développement web, Sécurité informatique">
   <meta name="google-site-verification" content="puEyUWPXIZDB1jr8YMNu99xhJFw10rOUpPADVcjn2s4">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://votre-site.com/DevOps.php">
-  <link rel="stylesheet" href="./assets/css/main.css">
-  <link rel="stylesheet" href="./assets/css/picture.css">
+  <link rel="stylesheet" href="../assets/css/main.css">
+  <link rel="stylesheet" href="../assets/css/picture.css">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -25,7 +25,7 @@
       "@type": "Person",
       "name": "Taguine Tarek"
     },
-    "url": "https://votre-site.com/DevOps.php"
+    "url": "https://tarek-taguine.fr/DevOps.php"
   }
   </script>
 </head>
@@ -54,8 +54,7 @@
 
       <div id="menuLinks" class="w3-hide-small">
         <a href="#one" class="w3-bar-item w3-button">Mes projets</a>
-        <a href="./cv.php" class="w3-bar-item w3-button">CV</a>
-        <a href="./cyber.php" class="w3-bar-item w3-button">Cyber securité</a>
+        <a href="../cyber.php" class="w3-bar-item w3-button">Cyber securité</a>
         <a href="#three" class="w3-bar-item w3-button">Contact</a>
       </div>
     </div>
@@ -72,8 +71,8 @@
 
   <div id="intro" class="w3-container w3-padding-64 w3-center w3-animate-opacity">
     <div class="w3-container">
-      <img class="w3-image" loading="lazy" src="./assets/images/tarek_taguine.webp" alt="Taguine Tarek">
-      <h1>DevSecOps</h1>
+      <img class="w3-image" loading="lazy" src="../assets/images/tarek_taguine.webp" alt="Taguine Tarek">
+      <h1>Developpeur Back-End DevOps</h1>
       <p>
         TAGUINE Tarek<br>
         Lyon, Auvergne-Rhône-Alpes, France
@@ -81,7 +80,7 @@
     <p>
       Passionné par le développement informatique, je me suis spécialisé
       dans le développement Back-End. Je suis à la recherche de nouvelles
-      connaissances dans le monde de la cybersécurité. Actuellement, je suis à l'écoute du marché dans la région de la Savoie,pour de nouvelles opportunités professionnelles.
+      connaissances dans le monde de la cybersécurité. Actuellement, je suis à l'écoute du marché dans la région de la Savoie, pour de nouvelles opportunités professionnelles.
     </p>
       
       <a href="#one" class="w3-button w3-black w3-round-xlarge">Mes projets</a>
@@ -90,25 +89,26 @@
 
   <div id="one" class="w3-row-padding w3-padding-64">
     <div class="w3-container">
-      <h1 class="w3-center">Mes projets</h1>
-      <p class="w3-center">Découvrez mes projets réalisés au cours de mes études et de mes expériences professionnelles.</p>
+      <h1 class="w3-center">Mes compétences</h1>
+      <p class="w3-center"><a href="https://github.com/Tarek-69200" class="w3-button w3-black w3-round-xlarge">GitHub Tarek-69200</a></p>
       <div class="w3-row-padding w3-padding-64">
         <div class="w3-container">
 
-          <h2>M1 Responsable Cybersécurité - 2024-2025 - CSB School
-            Lyon labellisée par l’ANSII</h2>
-          <p>
-            Le Master 1 Responsable de la sécurité des systèmes d'information forme des professionnels capables de
-            concevoir, mettre en œuvre et gérer la sécurité des systèmes d'information. Les étudiants acquièrent des
-            compétences techniques et managériales pour protéger les données et les systèmes informatiques des entreprises
-          </p>
+          <h2>Compétences techniques</h2>
+
           <ul>
-            <li>Industrial Cybersecurity (OT)</li>
-            <li>Crisis and Incident Management (SOC)</li>
-            <li>Governance, Risks, and Compliance (GRC)</li>
-
+            <li>Langages de programmation : Node.js, PHP, Python, </li>
+            <li>Frameworks : Express, Symfony, Django, Flask, FastAPI</li>
+            <li>Base de données : MySQL, PostgreSQL, MongoDB</li>
+            <li>Web : HTML, CSS, JavaScript, React, Vue.js</li>
+            <li>DevOps : Docker, Kubernetes, Jenkins, GitAction CI/CD, Ansible.</li>
+            <li>Cloud : AWS, Azure, Google Cloud Platform.</li>
+            <li>OS : Linux, Windows, MacOS.</li>
+            <li> Outils : Git-Github, Postman, VSCode, CodeSpaces,</li>
+            <li> Méthodologies : Agile, Scrum, Kanban.</li>
+            <li> Seo : Référencement naturel, Google Analytics, Google Search Console.</li>
           </ul>
-
+          
           <h2>Réalisation d'une thèse sur l'intelligence artificielle, l'impact d'aujourd'hui.</h2>
           <p>
             Explication de machine de Turing et du test de Turing.<br>
@@ -124,17 +124,15 @@
             base de données (SQL). Réalisation d'un jeu de données afin de tester la base de donnés. Développement d'une
             API REST en NodeJS avec l'ORM Sequelize. Développement d'une application front-end avec la technologie VueJS
             et consommation du web service.</p>
-
-          <ul>
-            <li>Conception et modélisation de la base de données relationnel.</li>
-            <li>Développement de l'API REST en NodeJS avec l'ORM Sequelize.</li>
-            <li>Développement des jeux de données pour tester la base de données.</li>
-            <li>Mise en place d'un JWT pour sécuriser l'API.</li>
-            <li>Développement de l'application front-end avec la technologie VueJS.</li>
-            <li>Consommation du web service.</li>
-          </ul>
-
-
+            <ul>
+              <li>Conception et modélisation de la base de données relationnel.</li>
+              <li>Développement de l'API REST en NodeJS avec l'ORM Sequelize.</li>
+              <li>Développement des jeux de données pour tester la base de données.</li>
+              <li>Mise en place d'un JWT pour sécuriser l'API.</li>
+              <li>Développement de l'application front-end avec la technologie VueJS.</li>
+              <li>Consommation du web service.</li>
+            </ul>
+    
           <br>
           <h2>Mode Bulles - Développeur Full Stack - Gestion du Serveur 2023-2024</h2>
           <p>Le projet consiste à développer une functionnalitée d'un site web pour une entreprise de vente de vêtements en ligne. J'ai également contribué à la gestion
@@ -147,8 +145,6 @@
             <li>Création d'une fonctionnalité permettant de générer aléatoirement des personnages pour les achats personnalisés, avec génération d'images artificielles.</li>
             <li>Sécurisation d'un site Wordpress avec optimisation du référencement (SEO).</li>
           </ul>
-
-
 
           <h2>2MN DIGITAL-SERVICES - Développeur Full Stack 2022-2023</h2>
           <p>
@@ -190,7 +186,6 @@
             <li>Travail en méthode agile.</li>
           </ul>
 
-
           <h2>IT-AKADEMY 2020-2023 - Développeur Full Stack (License)</h2>
           <ul>
             <li>Participation au pilotage de projets d'application ou de site
@@ -213,7 +208,7 @@
       <h2 class="w3-center">Contactez-moi</h2>
       <p>Vous avez un projet ou une question ? N'hésitez pas à me contacter en remplissant le formulaire ci-dessous.
         Je vous répondrai dans les plus brefs délais. Merci !</p>
-      <form method="post" action="message.php" class="w3-container">
+      <form method="post" action="../message.php class="w3-container">
         <div class="w3-row-padding">
           <div class="w3-half">
             <label for="name">Nom</label>
@@ -247,7 +242,7 @@
     </div>
   </footer>
 
-  <script defer src="./assets/js/script.js"></script>
+  <script defer src="../assets/js/script.js></script>
 
 
 </body>
