@@ -83,11 +83,10 @@
       connaissances dans le monde de la cybersécurité. Actuellement, je suis à l'écoute du marché dans la région de la Savoie, pour de nouvelles opportunités professionnelles.
     </p>
       
-      <a href="#one" class="w3-button w3-black w3-round-xlarge">Mes projets</a>
     </div>
   </div>
 
-  <div id="one" class="w3-row-padding w3-padding-64">
+  <div id="one" class="w3-row-padding w3-padding-32">
     <div class="w3-container">
       <h1 class="w3-center">Mes compétences</h1>
       <p class="w3-center"><a href="https://github.com/Tarek-69200" class="w3-button w3-black w3-round-xlarge">GitHub Tarek-69200</a></p>
@@ -208,7 +207,7 @@
       <h2 class="w3-center">Contactez-moi</h2>
       <p>Vous avez un projet ou une question ? N'hésitez pas à me contacter en remplissant le formulaire ci-dessous.
         Je vous répondrai dans les plus brefs délais. Merci !</p>
-      <form method="post" action="../message.php class="w3-container">
+      <form method="post" action="../message.php" class="w3-container">
         <div class="w3-row-padding">
           <div class="w3-half">
             <label for="name">Nom</label>
@@ -242,7 +241,7 @@
     </div>
   </footer>
 
-  <script defer src="../assets/js/script.js></script>
+  <script defer src="../assets/js/script.js"></script>
 
 
 </body>
