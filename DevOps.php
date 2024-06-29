@@ -13,8 +13,8 @@
   <meta name="google-site-verification" content="puEyUWPXIZDB1jr8YMNu99xhJFw10rOUpPADVcjn2s4">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://votre-site.com/DevOps.php">
-  <link rel="stylesheet" href="../assets/css/main.css">
-  <link rel="stylesheet" href="../assets/css/picture.css">
+  <link rel="stylesheet" href="./assets/css/main.css">
+  <link rel="stylesheet" href="./assets/css/picture.css">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -71,7 +71,7 @@
 
   <div id="intro" class="w3-container w3-padding-64 w3-center w3-animate-opacity">
     <div class="w3-container">
-      <img class="w3-image" loading="lazy" src="../assets/images/tarek_taguine.webp" alt="Taguine Tarek">
+      <img class="w3-image" loading="lazy" src="./assets/images/tarek_taguine.webp" alt="Taguine Tarek">
       <h1>Developpeur Back-End DevOps</h1>
       <p>
         TAGUINE Tarek<br>
@@ -207,7 +207,7 @@
       <h2 class="w3-center">Contactez-moi</h2>
       <p>Vous avez un projet ou une question ? N'hésitez pas à me contacter en remplissant le formulaire ci-dessous.
         Je vous répondrai dans les plus brefs délais. Merci !</p>
-      <form method="post" action="../message.php" class="w3-container">
+      <form method="post" action="./message.php" class="w3-container">
         <div class="w3-row-padding">
           <div class="w3-half">
             <label for="name">Nom</label>
@@ -241,7 +241,7 @@
     </div>
   </footer>
 
-  <script defer src="../assets/js/script.js"></script>
+  <script defer src="./assets/js/script.js"></script>
 
 
 </body>
