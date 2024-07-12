@@ -83,7 +83,7 @@
             Explication de machine de Turing et du test de Turing.<br>
             Dans cette thèse, j'explique l'intelligence artificielle dans les années 1964, avec le programme Elisa qui avait pour but de prendre le rôle d'un psychothérapeute.<br>
             Je parle de l'effet Elisa et de l'impact de l'intelligence artificielle dans notre ère actuelle.<br>
-            Développement d'un contexte problématique complexe avec l'intelligence intelligence artificielle afin d'expliquer dans un cadre plus précis l'effet d'Elisa.
+            Développement d'un contexte problématique complexe avec l'intelligence artificielle afin d'expliquer dans un cadre plus précis l'effet d'Elisa.
           </p>
 
 

@@ -17,5 +17,3 @@ README.txt
 *.env.test.local
 *.env.production.local
 
-
-.htaccess
