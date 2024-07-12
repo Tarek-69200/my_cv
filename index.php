@@ -66,16 +66,11 @@
         Passionné par le développement informatique, je me suis spécialisé
         dans le développement Back-End.
       </p>
+
+      <h2>En cours de migration vers une nouvelle technologie</h2>
       <a href="#one" class="w3-button w3-black w3-round-xlarge">Mes projets</a>
     </div>
   </div>
-
-  <div id="one" class="w3-row-padding w3-padding-64">
-    <div class="w3-container">
-      <h1 class="w3-center">En cours de migration vers une nouvelle techno</h1>
-      <div class="w3-row-padding w3-padding-64">
-        <div class="w3-container">
-
 
     
   <div id="three" class="w3-row-padding w3-padding-32">
