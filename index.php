@@ -72,15 +72,12 @@
 
   <div id="one" class="w3-row-padding w3-padding-64">
     <div class="w3-container">
-      <h1 class="w3-center">Mes projets</h1>
-      <p class="w3-center">Découvrez mes projets réalisés au cours de mes études et de mes expériences professionnelles.</p>
+      <h1 class="w3-center">En cours de migration vers une nouvelle techno</h1>
       <div class="w3-row-padding w3-padding-64">
         <div class="w3-container">
 
 
-          <h2>En cours de migration vers une nouvelle techno.</h2>
-          
-
+    
   <div id="three" class="w3-row-padding w3-padding-32">
     <div class="w3-half w3-margin-auto"></div>
     <div class="w3-container">
