@@ -68,20 +68,7 @@
         La cybersécurité est devenue un enjeu majeur dans notre société de plus en plus connectée. Les attaques informatiques sont de plus en plus sophistiquées et peuvent causer des dommages importants aux entreprises et aux particuliers. Voici quelques-uns des principaux enjeux de la cybersécurité :
       </p>
 
-      <p>
-        Importance de la sécurité des serveurs et des réseaux informatiques pour plusieurs raisons, notamment la protection des données sensibles, la confidentialité des communications et la disponibilité des services. </p>
-      <ul>
-        <li> Protection des données sensibles contre les fuites et les vols.</li>
-        <li>Disponibilité des services en ligne</li>
-        <li>Le RGPD et la protection de la vie privée des utilisateurs</li>
-        <li>Le maintien de la répuation, une attaque peut avoir des conséquences désastreuses sur l'image d'une entreprise.
-        </li>
-      </ul>
-
-      <p>
-        La cybersécurité est un domaine en constante évolution et il est important de rester informé des dernières tendances et des meilleures pratiques pour protéger vos données et votre vie privée.
-      </p>
-      <a href="https://github.com/Tarek-69200/security" class="w3-button w3-black w3-round-xlarge">Pour plus d'informations</a>
+      <a href="https://github.com/Tarek-69200/security" class="w3-button w3-black w3-round-xlarge">Pour plus d'informations technique</a>
     </div>
   </div>
 

@@ -78,7 +78,7 @@
         <div class="w3-container">
 
 
-          <h2>En cours de réadaptation.</h2>
+          <h2>En cours de migration vers une nouvelle techno.</h2>
           
 
   <div id="three" class="w3-row-padding w3-padding-32">
