@@ -91,8 +91,7 @@
         <h2>L'ANSII</h2>
         <p>L'Agence nationale de la sécurité des systèmes d'information (ANSSI) est l'autorité nationale en matière de sécurité et de défense des systèmes d'information. Elle est chargée de protéger les réseaux informatiques de l'État et des opérateurs d'importance vitale (OIV) contre les cyberattaques. L'ANSSI propose des recommandations et des bonnes pratiques en matière de cybersécurité pour aider les entreprises et les particuliers à se protéger contre les menaces en ligne.</p>
         <h2>Les certifications en cybersécurité</h2>
-        <p>Il existe de nombreuses certifications en cybersécurité qui permettent de valider ses compétences et ses connaissances dans ce domaine. Voici quelques-unes des certifications les plus reconnues :
-        </p>
+        <p>Il existe de nombreuses certifications en cybersécurité qui permettent de valider ses compétences et ses connaissances dans ce domaine. Voici quelques-unes des certifications les plus reconnues :</p>
         <ul>
           <li>Certified Information Systems Security Professional (CISSP)</li>
           <li>CompTIA Security+</li>
@@ -100,10 +99,6 @@
           <li>Offensive Security Certified Professional (OSCP)</li>
           <li>GIAC Security Essentials (GSEC)</li>
           <li>CISSP - Certified Information Systems Security Professional</li>
-          <li>CompTIA Security+</li>
-          <li>Certified Ethical Hacker (CEH)</li>
-          <li>Offensive Security Certified Professional (OSCP)</li>
-          <li>GIAC Security Essentials (GSEC)</li>
         </ul>
       </div>
       <div class="w3-row-padding w3-padding-64">
@@ -123,6 +118,14 @@
           </ul>
           <h2>La CNIL</h2>
           <p>La Commission nationale de l'informatique et des libertés (CNIL) est l'autorité française chargée de protéger les données personnelles et la vie privée des citoyens. La CNIL veille au respect de la loi Informatique et Libertés et du Règlement général sur la protection des données (RGPD) en France. Elle propose des recommandations et des bonnes pratiques en matière de protection des données pour aider les entreprises et les particuliers à se conformer à la réglementation en vigueur.</p>
+          <h2>Le RGPD</h2>
+          <p>Le RGPD (Règlement Général sur la Protection des Données) est une réglementation européenne qui vise à renforcer la protection des données personnelles des individus. Il s'applique à toutes les entreprises qui collectent, traitent ou stockent des données personnelles de citoyens européens, quel que soit leur lieu d'établissement.
+
+En ce qui concerne la cybersécurité, le RGPD impose aux entreprises de mettre en place des mesures de sécurité appropriées pour protéger les données personnelles contre les violations et les cyberattaques. Cela inclut la mise en place de mesures techniques et organisationnelles telles que le chiffrement des données, la gestion des accès, la détection des intrusions, la sauvegarde régulière des données, etc.
+
+De plus, le RGPD exige également que les entreprises notifient les autorités compétentes et les personnes concernées en cas de violation de données personnelles. Les entreprises doivent également mettre en place des procédures internes pour gérer les incidents de sécurité et garantir la confidentialité, l'intégrité et la disponibilité des données.
+
+En résumé, le RGPD joue un rôle essentiel dans la cybersécurité en imposant des obligations strictes aux entreprises pour protéger les données personnelles des individus et garantir leur sécurité en cas de violation. Cela contribue à renforcer la confiance des utilisateurs dans le traitement de leurs données et à promouvoir une meilleure sécurité en ligne. </p>
 
         </div>
 
