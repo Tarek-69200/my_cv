@@ -38,7 +38,7 @@
 
       <div id="menuLinks" class="w3-hide-small">
         <a href="#one" class="w3-bar-item w3-button">Mes projets</a>
-        <a href="./cv.php" class="w3-bar-item w3-button">CV</a>
+
         <a href="./cyber.php" class="w3-bar-item w3-button">Cyber securité</a>
         <a href="#three" class="w3-bar-item w3-button">Contact</a>
       </div>
@@ -48,7 +48,7 @@
   <!-- Sidebar on small screens when clicking the menu icon -->
   <nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
     <a href="#one" onclick="myFunction()" class="w3-bar-item w3-button">Mes projets</a>
-    <a href="./cv.php" onclick="myFunction()" class="w3-bar-item w3-button">CV</a>
+
     <a href="./cyber.php" onclick="myFunction()" class="w3-bar-item w3-button">Cyber securité</a>
     <a href="#three" onclick="myFunction()" class="w3-bar-item w3-button">Contact</a>
   </nav>

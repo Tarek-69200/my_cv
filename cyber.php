@@ -38,7 +38,6 @@
 
       <div id="menuLinks" class="w3-hide-small">
         <a href="./index.php" class="w3-bar-item w3-button">Mes projets</a>
-        <a href="./cv.php" class="w3-bar-item w3-button">CV</a>
         <a href="#one" class="w3-bar-item w3-button">Mes compétences</a>
         <a href="#three" class="w3-bar-item w3-button">Contact</a>
       </div>
@@ -49,7 +48,6 @@
   <nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
     <a href="./index.php" onclick="myFunction()" class="w3-bar-item w3-button">Accueil</a>
     <a href="#one" onclick="myFunction()" class="w3-bar-item w3-button">Mes compétences</a>
-    <a href="./cv.php" onclick="myFunction()" class="w3-bar-item w3-button">CV</a>
     <a href="#three" onclick="myFunction()" class="w3-bar-item w3-button">Contact</a>
   </nav>
 
